@@ -42,7 +42,7 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:120vw ;
+height:121vw ;
 background-color: #191005;
 color:#FFD8D4 ;
 display:flex ;
