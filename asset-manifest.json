@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/trenova-academy/static/css/main.39cefa96.css",
+    "main.js": "/trenova-academy/static/js/main.831689e8.js",
+    "static/js/496.fe5f3da1.chunk.js": "/trenova-academy/static/js/496.fe5f3da1.chunk.js",
+    "static/media/graduateskillssvg.png": "/trenova-academy/static/media/graduateskillssvg.e2488ff8b907aa2fd972.png",
+    "static/media/businessgrowthsvg.png": "/trenova-academy/static/media/businessgrowthsvg.9935e9f229c714f70688.png",
+    "static/media/sellingskillssvg.png": "/trenova-academy/static/media/sellingskillssvg.93449849c84b456a225a.png",
+    "static/media/schoolgrowthsvg.png": "/trenova-academy/static/media/schoolgrowthsvg.08cc4b7c432199558893.png",
+    "static/media/HELPING HANDS FRAME.png": "/trenova-academy/static/media/HELPING HANDS FRAME.289f74d0776c9e0db550.png",
+    "static/media/HELPING HANDS FRAME mobile.png": "/trenova-academy/static/media/HELPING HANDS FRAME mobile.39c382b39417736d648f.png",
+    "index.html": "/trenova-academy/index.html",
+    "main.39cefa96.css.map": "/trenova-academy/static/css/main.39cefa96.css.map",
+    "main.831689e8.js.map": "/trenova-academy/static/js/main.831689e8.js.map",
+    "496.fe5f3da1.chunk.js.map": "/trenova-academy/static/js/496.fe5f3da1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39cefa96.css",
+    "static/js/main.831689e8.js"
+  ]
+}
