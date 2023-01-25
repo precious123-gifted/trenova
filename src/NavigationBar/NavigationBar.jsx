@@ -2,6 +2,7 @@ import React from 'react'
 import { NavigationBarStyle } from './NavigationBar.styled'
 import trenovaLogo from '../assets/trenovo-logo.png'
 import { useEffect } from 'react'
+import menuIcon from '../assets/menu-hamburger.png'
 
 
 export default function NavigationBar() {
@@ -22,7 +23,12 @@ export default function NavigationBar() {
         <div className='navlink' id='blog-link'>Blog</div>
       </div>:null
     }  
-    
+     {
+      mobileScreens.matches?<div className='menu-icon'>
+        <span className='courses-icon'>courses</span>
+       <img src={menuIcon} alt="" srcset="" className='menu-hambuger'/>
+      </div>:null
+    } 
     </div>
     
    </NavigationBarStyle>
