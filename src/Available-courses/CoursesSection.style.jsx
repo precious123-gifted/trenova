@@ -278,7 +278,8 @@ margin-bottom:30vw ;
             }
 
             .text-box-summary{
-                font-size:4.8vw ;
+                font-family:Arial, Helvetica, sans-serif ;
+                font-size:5.1vw ;
                 line-height:8vw ;
                 word-spacing:1.2vw;
                 margin-bottom:6vw ;
@@ -325,7 +326,8 @@ margin-bottom:30vw ;
             }
 
             .text-box-summary{
-                font-size:4.8vw ;
+                font-family:Arial, Helvetica, sans-serif ;
+                font-size:5.1vw ;
                 line-height:8vw ;
                 word-spacing:1.2vw;
                 margin-bottom:6vw ;
@@ -372,7 +374,8 @@ margin-bottom:30vw ;
             }
 
             .text-box-summary{
-                font-size:4.8vw ;
+                font-family:Arial, Helvetica, sans-serif ;
+                font-size:5.1vw ;
                 line-height:8vw ;
                 word-spacing:1.2vw;
                 margin-bottom:6vw ;
@@ -420,7 +423,8 @@ margin-bottom:30vw ;
             }
 
             .text-box-summary{
-                font-size:4.8vw ;
+                font-family:Arial, Helvetica, sans-serif ;
+                font-size:5.1vw ;
                 line-height:8vw ;
                 word-spacing:1.2vw;
                 margin-bottom:6vw ;
