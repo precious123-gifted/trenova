@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderStyle = styled.div`
   
-  @media only screen and (min-width: 700px) and (orientation: landscape) {
+  @media only screen and (min-width: 700px)  {
 
 width:100% ;
 height:43vw ;
@@ -28,7 +28,7 @@ align-items:flex-start ;
 color:#191005 ;
 
 .header-text{
-    font-size:5vw ;
+    font-size:4.7vw ;
     text-align: left;
 }
 
@@ -69,6 +69,7 @@ height:150vw ;
 display:flex ;
 justify-content:center ;
 align-items:center ;
+margin-bottom:18vw ;
 .content{
     height:100% ;
     width: 90%;

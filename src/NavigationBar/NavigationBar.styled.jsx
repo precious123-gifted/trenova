@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 export const NavigationBarStyle = styled.div`
 
-@media only screen and (min-width: 700px) and (orientation: landscape) {
+@media only screen and (min-width: 700px) {
 
 color:white ;
 width: 100%;

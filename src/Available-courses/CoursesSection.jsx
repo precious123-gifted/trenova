@@ -3,6 +3,8 @@ import { CoursesSectionStyle } from './CoursesSection.style'
 import schoolGrowthSvg from '../assets/schoolgrowthsvg.png'
 import sellingSkillsSvg from '../assets/sellingskillssvg.png'
 import businessGrowthSvg from '../assets/businessgrowthsvg.png'
+import graduateSkillsSvg from '../assets/graduateskillssvg.png'
+
 
 
 
@@ -21,7 +23,7 @@ export default function CoursesSection() {
 
 <div className="courses">
 <div className="school-growth-training">
-{desktopScreens. matches? <img src={schoolGrowthSvg} alt="" className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img src={schoolGrowthSvg} alt=""  id='illustration' className='school-growth-svg' srcset="" />:null }
 <div className="text-box">
 <div className="text-box-header">
     SCHOOL GROWTH TRAINING
@@ -58,14 +60,14 @@ sales skills, no matter their current level.
 
 </div>
 
-{desktopScreens. matches? <img src={sellingSkillsSvg} alt="" className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img src={sellingSkillsSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
 
 </div>
 
 
 
 <div className="business-growth-training">
-{desktopScreens. matches? <img src={businessGrowthSvg} alt="" className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img src={businessGrowthSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
 <div className="text-box">
 <div className="text-box-header">
 BUSINESS GROWTH
@@ -86,6 +88,32 @@ achieve success. The skills required to achieve these are the focus of this cour
 
 
 </div>
+
+
+
+
+<div className="graduate-skills-training">
+
+<div className="text-box">
+<div className="text-box-header">
+GRADUATE
+EMPLOYABILITY
+SKILLS TRAINING
+</div>
+<div className="text-box-summary">
+Master Customer Service using this practical customer care course to delight every customer
+</div>
+
+<div className="learn-more-btn">
+    <span>LEARN MORE</span>
+</div>
+
+</div>
+
+{desktopScreens. matches? <img src={graduateSkillsSvg} alt="" id='illustration' className='graduate-skills-svg' srcset="" />:null }
+
+</div>
+
 
 </div>
       </div>
