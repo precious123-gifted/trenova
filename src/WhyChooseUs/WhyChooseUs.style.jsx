@@ -131,7 +131,7 @@ width:40% ;
 
   @media only screen and (max-width: 700px) and (orientation: portrait) {
 
-    width:100vw ;
+width:100vw ;
 height:430vw ;
 background-color:#FCFBFA ;
 
@@ -142,7 +142,7 @@ color:#191005 ;
 
 .content{
 width:90% ;
-height:80% ;
+
 
 .why-choose-us-section{
     width:100% ;
