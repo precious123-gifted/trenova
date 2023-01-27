@@ -13,10 +13,11 @@ align-items:center ;
 
 .content{
     width:90% ;
-    height:80% ;
+    
     display:flex ;
     flex-direction:column ;
     align-items:center ;
+    
 
     .header{
         color:#191005 ;
@@ -81,7 +82,7 @@ align-items:center ;
 @media only screen and (max-width: 700px) and (orientation: portrait) {
 
     width:100vw ;
-height:450vw ;
+height:455vw ;
 background-color:#E9D5BD ;
 
 display:flex ;
@@ -90,7 +91,7 @@ align-items:center ;
 
 .content{
     width:90% ;
-    height:90% ;
+   
     display:flex ;
     flex-direction:column ;
     align-items:center ;
