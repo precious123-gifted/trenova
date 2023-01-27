@@ -68,14 +68,14 @@ margin-bottom:6vw;
                 padding:0.6vw ;
                 background-color:#1A1005 ;
                 border-radius:0.3vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:1vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -116,14 +116,14 @@ margin-bottom:6vw;
                 padding:0.6vw ;
                 background-color:#1A1005 ;
                 border-radius:0.3vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:1vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -165,14 +165,14 @@ margin-bottom:6vw;
                 padding:0.6vw ;
                 background-color:#1A1005 ;
                 border-radius:0.3vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:1vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -214,14 +214,14 @@ margin-bottom:6vw;
                 padding:0.6vw ;
                 background-color:#1A1005 ;
                 border-radius:0.3vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:1vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -289,14 +289,14 @@ margin-bottom:30vw ;
                 padding:2vw ;
                 background-color:#1A1005 ;
                 border-radius:1.2vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:4vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -337,14 +337,14 @@ margin-bottom:30vw ;
                 padding:2vw ;
                 background-color:#1A1005 ;
                 border-radius:1.2vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:4vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -385,14 +385,14 @@ margin-bottom:30vw ;
                 padding:2vw ;
                 background-color:#1A1005 ;
                 border-radius:1.2vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:4vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }
@@ -434,14 +434,14 @@ margin-bottom:30vw ;
                 padding:2vw ;
                 background-color:#1A1005 ;
                 border-radius:1.2vw ;
-                color:white ;
+                color:#F4EEE6 ;
                 cursor: pointer;
                 font-size:4vw ;
                 transition:0.6s ease-in all ;
     user-select:none;
                 &:hover{
         background-color: #B57323;
-    color:white ;   
+    color:#F4EEE6 ;   
     }
             }
         }

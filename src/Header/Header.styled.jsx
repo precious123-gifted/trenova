@@ -39,7 +39,7 @@ color:#191005 ;
     padding:1vw ;
     border-radius:0.5vw ;
     background-color: #191005;
-    color:white ;
+    color:#F4EEE6 ;
     transition:0.6s ease-in all ;
     user-select:none;
     &:hover{
@@ -114,7 +114,7 @@ color:#191005 ;
     padding:3vw ;
     border-radius:1.6vw ;
     background-color: #191005;
-    color:white ;
+    color:#F4EEE6 ;
     user-select:none;
     &:active{
         background-color: #B57323;
