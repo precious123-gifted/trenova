@@ -5,6 +5,7 @@ import { useContext } from 'react';
 import NavigationBar from '../NavigationBar/NavigationBar.jsx';
 import HomeContent from './HomeContent.jsx';
 import SevenHoursWorkshopSection from '../Seven-hours-workshop/SevenHoursWorkshopSection.jsx';
+import TrenovaGuaranteeSection from '../TrenovaGuarantee/TrenovaGuaranteeSection.jsx';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <NavigationBar/>
   <HomeContent/>
   <SevenHoursWorkshopSection/>
+  <TrenovaGuaranteeSection/>
  </HomeStyled>
   );
 }

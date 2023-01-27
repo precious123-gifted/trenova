@@ -15,7 +15,7 @@ align-items:center ;
     display:flex ;
     justify-content:space-between ;
     align-items:center ;
-    overflow: hidden;
+   
    
 
 
@@ -50,9 +50,12 @@ color:#191005 ;
     } 
     .section2{
         width: 60%;
+        display:flex ;
+        justify-content:flex-end ;
      .helping-hand{
         width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: right;
   aspect-ratio: 4/3;
      }
     

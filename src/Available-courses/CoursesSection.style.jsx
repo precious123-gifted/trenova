@@ -58,7 +58,7 @@ margin-bottom:6vw;
             }
 
             .text-box-summary{
-                font-size:1.2vw;
+                font-size:1.4vw;
                 line-height:2vw ;
                 word-spacing:0.8vw;
                 margin-bottom:1.2vw ;
@@ -106,7 +106,7 @@ margin-bottom:6vw;
             }
 
             .text-box-summary{
-                font-size:1.2vw ;
+                font-size:1.4vw ;
                 line-height:2vw ;
                 word-spacing:0.8vw;
                 margin-bottom:1.2vw ;
@@ -155,7 +155,7 @@ margin-bottom:6vw;
             }
 
             .text-box-summary{
-                font-size:1.2vw ;
+                font-size:1.4vw ;
                 line-height:2vw ;
                 word-spacing:0.8vw;
                 margin-bottom:1.2vw ;
@@ -204,7 +204,7 @@ margin-bottom:6vw;
             }
 
             .text-box-summary{
-                font-size:1.2vw ;
+                font-size:1.4vw ;
                 line-height:2vw ;
                 word-spacing:0.8vw;
                 margin-bottom:1.2vw ;

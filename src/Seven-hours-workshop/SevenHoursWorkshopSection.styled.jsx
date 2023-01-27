@@ -155,7 +155,7 @@ align-items:center ;
         flex-direction:column ;
         align-items:center ;
         justify-content:space-between ;
-        margin-bottom:8vw ;
+        
     }
     }
 }
