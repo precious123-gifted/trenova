@@ -38,7 +38,7 @@ owned by TreNova Group</span>
 
         </div>
         <footer>
-         <span>Trenova Group © 2022</span>   
+         <span>Trenova Group © 2023</span>   
         </footer>
       
     </FooterStyle>
