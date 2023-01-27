@@ -132,8 +132,9 @@ width:40% ;
   @media only screen and (max-width: 700px) and (orientation: portrait) {
 
     width:100vw ;
-height:195vh ;
+height:430vw ;
 background-color:#FCFBFA ;
+
 display:flex ;
 justify-content:center ;
 align-items:center ;
