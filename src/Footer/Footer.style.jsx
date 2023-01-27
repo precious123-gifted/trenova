@@ -23,6 +23,7 @@ justify-content:space-between ;
         margin-bottom:2vw ;
     }
     #box{
+        font-family:Arial, Helvetica, sans-serif ;
         width:27% ;
         display:flex ;
         flex-direction:column ;
