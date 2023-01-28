@@ -7,6 +7,7 @@ import styled from "styled-components";
 
 export const NavigationBarStyle = styled.div`
 
+
 @media only screen and (min-width: 700px) {
 
 color:white ;

@@ -4,5 +4,4 @@ export const HomeStyled = styled.div`
 
 
 
-
 `

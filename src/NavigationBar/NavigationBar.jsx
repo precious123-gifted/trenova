@@ -14,7 +14,7 @@ export default function NavigationBar() {
   return (
    <NavigationBarStyle>
     <div  className='content'>
-    <img src={trenovaLogo} id='trenova-logo' alt="" srcset="" />  
+    <img draggable="false" src={trenovaLogo} id='trenova-logo' alt="" srcset="" />  
     {
       desktopScreens.matches?<div className='navigations'>
         <div className='navlink' id='courses-link'>Courses</div>
@@ -26,7 +26,7 @@ export default function NavigationBar() {
      {
       mobileScreens.matches?<div className='menu-icon'>
         <span className='courses-icon'>courses</span>
-       <img src={menuIcon} alt="" srcset="" className='menu-hambuger'/>
+       <img draggable="false"  src={menuIcon} alt="" srcset="" className='menu-hambuger'/>
       </div>:null
     } 
     </div>

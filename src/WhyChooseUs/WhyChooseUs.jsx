@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
     <div className="header">WHY CHOOSE US</div>
     <div className="components">
   <div className="svg-section">
-<img src={queSVG}  alt=""  className='que-svg' srcset="" />
+<img draggable="false"  src={queSVG}  alt=""  className='que-svg' srcset="" />
     </div>
     <div className="writeup-section">
 <div className="write-up">Not only this, but you will also network with
@@ -51,7 +51,7 @@ colleagues or friends with you for HALF PRICE.</div>
 
     </div> 
     <div className="svg-section">
-    <img src={contactSVG}  alt=""  className='contact-us-svg' srcset="" />
+    <img draggable="false"  src={contactSVG}  alt=""  className='contact-us-svg' srcset="" />
     </div> 
     </div>
   

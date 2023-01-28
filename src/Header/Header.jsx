@@ -26,8 +26,8 @@ desktopScreens.matches?<div className='get-started-btn'>
 </div>
 <div className='section2'>
 {
-desktopScreens.matches?<img src={helpingHandsSvg} className='helping-hand' alt="" srcset="" />
- : mobileScreens.matches?<img src={helpingHandsMobileSvg} className='helping-hand' alt="" srcset="" />
+desktopScreens.matches?<img draggable="false"  src={helpingHandsSvg} className='helping-hand' alt="" srcset="" />
+ : mobileScreens.matches?<img draggable="false"  src={helpingHandsMobileSvg} className='helping-hand' alt="" srcset="" />
  :null
 }
 {

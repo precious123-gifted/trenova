@@ -23,7 +23,7 @@ export default function CoursesSection() {
 
 <div className="courses">
 <div className="school-growth-training">
-{desktopScreens. matches? <img src={schoolGrowthSvg} alt=""  id='illustration' className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img draggable="false"  src={schoolGrowthSvg} alt=""  id='illustration' className='school-growth-svg' srcset="" />:null }
 <div className="text-box">
 <div className="text-box-header">
     SCHOOL GROWTH TRAINING
@@ -60,14 +60,14 @@ sales skills, no matter their current level.
 
 </div>
 
-{desktopScreens. matches? <img src={sellingSkillsSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img draggable="false"  src={sellingSkillsSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
 
 </div>
 
 
 
 <div className="business-growth-training">
-{desktopScreens. matches? <img src={businessGrowthSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
+{desktopScreens. matches? <img draggable="false"  src={businessGrowthSvg} alt="" id='illustration' className='school-growth-svg' srcset="" />:null }
 <div className="text-box">
 <div className="text-box-header">
 BUSINESS GROWTH
@@ -110,7 +110,7 @@ Master Customer Service using this practical customer care course to delight eve
 
 </div>
 
-{desktopScreens. matches? <img src={graduateSkillsSvg} alt="" id='illustration' className='graduate-skills-svg' srcset="" />:null }
+{desktopScreens. matches? <img draggable="false"  src={graduateSkillsSvg} alt="" id='illustration' className='graduate-skills-svg' srcset="" />:null }
 
 </div>
 
