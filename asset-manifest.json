@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trenova-academy/static/css/main.39cefa96.css",
-    "main.js": "/trenova-academy/static/js/main.055d9963.js",
+    "main.js": "/trenova-academy/static/js/main.5c0991e0.js",
     "static/js/496.fe5f3da1.chunk.js": "/trenova-academy/static/js/496.fe5f3da1.chunk.js",
     "static/media/graduateskillssvg.png": "/trenova-academy/static/media/graduateskillssvg.e2488ff8b907aa2fd972.png",
     "static/media/businessgrowthsvg.png": "/trenova-academy/static/media/businessgrowthsvg.9935e9f229c714f70688.png",
@@ -9,16 +9,20 @@
     "static/media/HELPING HANDS FRAME mobile.png": "/trenova-academy/static/media/HELPING HANDS FRAME mobile.ff53d8a1baed3db14f14.png",
     "static/media/schoolgrowthsvg.png": "/trenova-academy/static/media/schoolgrowthsvg.08cc4b7c432199558893.png",
     "static/media/Queue-amico.png": "/trenova-academy/static/media/Queue-amico.0f915b2c7d23a434bd11.png",
+    "static/media/obstacle-svg.png": "/trenova-academy/static/media/obstacle-svg.a7773f9ec45972bd47c7.png",
     "static/media/HELPING HANDS FRAME.png": "/trenova-academy/static/media/HELPING HANDS FRAME.fd44bfebc27b18bb7dc8.png",
+    "static/media/relationship-svg.png": "/trenova-academy/static/media/relationship-svg.68e4c74af5e688aeedb8.png",
     "static/media/Contact us.png": "/trenova-academy/static/media/Contact us.48429ec867c6115d30cf.png",
+    "static/media/phone.png": "/trenova-academy/static/media/phone.180d44847880519a2f81.png",
+    "static/media/sales-header-svg.png": "/trenova-academy/static/media/sales-header-svg.9ffc1942c000fc4a9b85.png",
     "static/media/trenovo-logo.png": "/trenova-academy/static/media/trenovo-logo.ce7ba033e3fd23306ab0.png",
     "index.html": "/trenova-academy/index.html",
     "main.39cefa96.css.map": "/trenova-academy/static/css/main.39cefa96.css.map",
-    "main.055d9963.js.map": "/trenova-academy/static/js/main.055d9963.js.map",
+    "main.5c0991e0.js.map": "/trenova-academy/static/js/main.5c0991e0.js.map",
     "496.fe5f3da1.chunk.js.map": "/trenova-academy/static/js/496.fe5f3da1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39cefa96.css",
-    "static/js/main.055d9963.js"
+    "static/js/main.5c0991e0.js"
   ]
 }
