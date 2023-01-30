@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./homepage/Home.jsx";
+import Content from "./Content.jsx";
 import { createContext, useContext, useEffect, useState , useRef } from "react";
 export const DataContext = createContext(null);
 
@@ -21,7 +21,7 @@ const footer = useRef(null)
 
   <DataContext.Provider value = {{navBar,Header}}>
        <div className="App" role="main">
-     <Home/>
+     <Content/>
     </div>
    </DataContext.Provider>
    

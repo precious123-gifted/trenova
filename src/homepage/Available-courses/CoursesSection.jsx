@@ -1,9 +1,9 @@
 import React from 'react'
 import { CoursesSectionStyle } from './CoursesSection.style'
-import schoolGrowthSvg from '../assets/schoolgrowthsvg.png'
-import sellingSkillsSvg from '../assets/sellingskillssvg.png'
-import businessGrowthSvg from '../assets/businessgrowthsvg.png'
-import graduateSkillsSvg from '../assets/graduateskillssvg.png'
+import schoolGrowthSvg from '../../assets/schoolgrowthsvg.png'
+import sellingSkillsSvg from '../../assets/sellingskillssvg.png'
+import businessGrowthSvg from '../../assets/businessgrowthsvg.png'
+import graduateSkillsSvg from '../../assets/graduateskillssvg.png'
 
 
 

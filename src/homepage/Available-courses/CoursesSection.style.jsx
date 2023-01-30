@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import textBackground1 from '../assets/background-simple-inject.png'
-import textBackground2 from '../assets/background-simple-inject2.png'
-import textBackground3 from '../assets/background-simple-inject3.png'
-import textBackground4 from '../assets/background-simple-inject4.png'
+import textBackground1 from '../../assets/background-simple-inject.png'
+import textBackground2 from '../../assets/background-simple-inject2.png'
+import textBackground3 from '../../assets/background-simple-inject3.png'
+import textBackground4 from '../../assets/background-simple-inject4.png'
 
 
 

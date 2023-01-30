@@ -1,7 +1,7 @@
 import React from 'react'
 import { WhyChooseUsStyle } from './WhyChooseUs.style'
-import queSVG from '../assets/Queue-amico.png'
-import contactSVG from '../assets/Contact us.png'
+import queSVG from '../../assets/Queue-amico.png'
+import contactSVG from '../../assets/Contact us.png'
 
 
 
