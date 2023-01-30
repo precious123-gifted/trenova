@@ -63,6 +63,9 @@ color:#191005 ;
   object-position: right;
   aspect-ratio: 4/3;
   opacity:0 ;
+  position: relative;
+  left:100% ;
+
      }
     
 }
@@ -116,6 +119,8 @@ color:#191005 ;
   object-fit: contain;
   aspect-ratio: 4/3;
   opacity:0 ;
+  position: relative;
+  left:100% ;
      
      }
     .get-started-btn{
