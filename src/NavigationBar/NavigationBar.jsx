@@ -3,6 +3,11 @@ import { NavigationBarStyle } from './NavigationBar.styled'
 import trenovaLogo from '../assets/trenovo-logo.png'
 import { useEffect } from 'react'
 import menuIcon from '../assets/menu-hamburger.png'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import { useContext } from 'react'
+import { DataContext } from '../App'
+
 
 
 export default function NavigationBar() {
@@ -10,9 +15,22 @@ export default function NavigationBar() {
   var desktopScreens = window.matchMedia("(min-width: 700px)")
 
 
+  const {navBar} = useContext(DataContext)
+
+
+
+const displayNavBar = () =>{
+ gsap.to(navBar.current,1,{top:0,position:'relative',})
+
+}
+
+
+useEffect(() => {
+displayNavBar()
+},)
 
   return (
-   <NavigationBarStyle>
+   <NavigationBarStyle ref={navBar}>
     <div  className='content'>
     <img draggable="false" src={trenovaLogo} id='trenova-logo' alt="" srcset="" />  
     {

@@ -8,6 +8,7 @@ const homePage = useRef(null)
 const aboutPage = useRef(null)
 const contactPage = useRef(null)
 const navBar = useRef(null)
+const Header = useRef(null)
 const schoolGrowthAndStrategyPage = useRef(null)
 const salesAndMarketingPage = useRef(null)
 const careerDevelopmentPage = useRef(null)
@@ -15,9 +16,10 @@ const graduateAndEmployabilityPage = useRef(null)
 const footer = useRef(null)
 
 
+
   return (
 
-  <DataContext.Provider value = {{}}>
+  <DataContext.Provider value = {{navBar,Header}}>
        <div className="App" role="main">
      <Home/>
     </div>

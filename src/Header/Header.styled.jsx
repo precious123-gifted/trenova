@@ -30,7 +30,11 @@ color:#191005 ;
 .header-text{
     font-size:4.7vw ;
     text-align: left;
+    position: absolute;
+    top:-30%;
+    opacity:0 ;
 }
+
 
 .get-started-btn{
     cursor:pointer ;
@@ -42,6 +46,7 @@ color:#191005 ;
     color:#F4EEE6 ;
     transition:0.6s ease-in all ;
     user-select:none;
+    opacity:0 ;
     &:hover{
         background-color: #B57323;
     color:white ;   
@@ -57,6 +62,7 @@ color:#191005 ;
   object-fit: contain;
   object-position: right;
   aspect-ratio: 4/3;
+  opacity:0 ;
      }
     
 }
@@ -92,6 +98,9 @@ color:#191005 ;
 .header-text{
     font-size:10vw ;
     text-align: left;
+    position: absolute;
+    top:-30%;
+    opacity:0 ;
 }
 
 
@@ -106,6 +115,7 @@ color:#191005 ;
         width: 130%;
   object-fit: contain;
   aspect-ratio: 4/3;
+  opacity:0 ;
      
      }
     .get-started-btn{
@@ -116,6 +126,7 @@ color:#191005 ;
     background-color: #191005;
     color:#F4EEE6 ;
     user-select:none;
+    opacity:0 ;
     &:active{
         background-color: #B57323;
     color:white ;   
