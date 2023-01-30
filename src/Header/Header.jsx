@@ -24,9 +24,9 @@ export default function Header() {
     let headerText = Header.current.querySelector('.header-text')
     let getStartedButton = Header.current.querySelector('.get-started-btn')
     let helpingHandSvg = Header.current.querySelector('.helping-hand')
-   gsap.to(headerText,1,{top:0,position:'relative',opacity:1,})
+   gsap.to(headerText,1,{top:0,opacity:1,})
    gsap.to(getStartedButton,0.4,{opacity:1,})
-   gsap.to(helpingHandSvg,1,{opacity:1,left:0,})
+   gsap.to(helpingHandSvg,1,{opacity:1})
 
   }
   
