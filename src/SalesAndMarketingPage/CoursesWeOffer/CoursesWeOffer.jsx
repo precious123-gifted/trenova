@@ -3,6 +3,7 @@ import { CoursesWeOfferStyle } from './CoursesWeOffer.styled'
 import phoneSvg from '../../assets/phone.png'
 import relationshipSvg from '../../assets/relationship-svg.png'
 import obstacleSvg from '../../assets/obstacle-svg.png'
+import { Link } from 'react-router-dom'
 
 export default function CoursesWeOffer() {
   return (
@@ -16,9 +17,9 @@ courses we offer
 <div className="boxes-container">
 
 <div className="section1">
-    <div id="box" className='box1'>
-        <div className="heading"><img draggable='false' src={phoneSvg} alt="" srcset="" /></div>
-        <div className="writeup">Professional Telemarketing</div>
+ <div id="box" className='box1'>
+  <div className="heading"><img draggable='false' src={phoneSvg} alt="" srcset="" /></div>
+       <Link to='/sales-and-marketing/professional-telemarketing'> <div className="writeup">Professional Telemarketing</div></Link>
     </div>
     <div id="box" className='box2'>
         <div className="heading"><img draggable='false' src={relationshipSvg} alt="" srcset="" /></div>

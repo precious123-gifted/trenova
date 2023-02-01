@@ -5,6 +5,7 @@ import helpingHandsMobileSvg from '../../assets/HELPING HANDS FRAME mobile.png'
 import { useContext } from 'react'
 import { DataContext } from '../../App'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 import arrow from '../../assets/arrow.png'
 
@@ -45,8 +46,8 @@ COURSE LIST
 </div>
 <div className="summary">
   <ul>
-    <li><span><img src={arrow} width='20px' alt="" srcset="" /></span> Professional Telemarketing/Telesales Skills and The Core Premises of 
-      Marketing that Promote Selling with Confidence</li>
+  <Link to='/sales-and-marketing/professional-telemarketing'> <li><span><img src={arrow} width='20px' alt="" srcset="" /></span> Professional Telemarketing/Telesales Skills and The Core Premises of 
+      Marketing that Promote Selling with Confidence</li></Link> 
     <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Prospecting, Creating Rapport and Building Relationships through
        Customer Facing and Sales Meetings</li>
     <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Overcoming Objections to Nail the Sale

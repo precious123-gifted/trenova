@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const CourseOutlineStyle = styled.div`
+export const ProfessionalTelemarketingSectionStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:300vh ;
-background-color: #F8F4EF;
-color: #191005;
+height:150vh ;
+background-color: #B2A696;
+color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
 padding-top:6vw ;
@@ -23,24 +23,11 @@ padding-top:6vw ;
         margin-bottom:2vw ;
        
     }
-    .summary1{
+    .summary{
         font-family:Arial, Helvetica, sans-serif ;
         font-size:1.6vw ;
         line-height: 3vw;
         word-spacing: 0.8vw;
-        margin-bottom:8vw ;
-       
-    }
-    .summary2{
-        font-family:Arial, Helvetica, sans-serif ;
-        font-size:1.6vw ;
-        line-height: 2vw;
-        word-spacing: 0.8vw;
-        margin-bottom:8vw ;
-        text-align:left ;
-        li{
-            margin-bottom:2vw ;
-        }
        
     }
 }
@@ -55,9 +42,9 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:785vw ;
-background-color: #F8F4EF;
-color: #191005;
+height:400vw ;
+background-color: #B2A696;
+color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
 padding-top:10vw ;
@@ -75,28 +62,13 @@ padding-top:10vw ;
         margin-bottom:8vw ;
        
     }
-    .summary1{
+    .summary{
         font-family:Arial, Helvetica, sans-serif ;
         font-size: 5.1vw;
         line-height: 8vw;
         word-spacing: 1.2vw;
-        margin-bottom: 14vw;
-        
        
     }
-    .summary2{
-        font-family:Arial, Helvetica, sans-serif ;
-        font-size: 5.1vw;
-        line-height: 8vw;
-        word-spacing: 1.2vw;
-        margin-bottom: 14vw;
-        text-align:left ;
-        li{
-            margin-bottom:8vw ;
-        }
-       
-    }
-
 }
 
 }
