@@ -4,13 +4,10 @@ export const SevenHoursWorkshopSectionStyle = styled.div`
 
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:120vh ;
-
-
 display:flex ;
 justify-content:center ;
 align-items:center ;
-
+margin-bottom:7vw ;
 .content{
     width:90% ;
     
@@ -22,7 +19,7 @@ align-items:center ;
     .header{
         color:#191005 ;
         font-size: 3vw;
-        margin-bottom:7vw ;
+        margin-bottom:13vw ;
     }
     .boxes-container{
         width:100% ;
@@ -32,8 +29,8 @@ align-items:center ;
 
     #box{
         color:#191005;
+        cursor: pointer;
         width:40vw ;
-        height:45vh ;
         display:flex ;
         flex-direction:column ;
         align-items:center ;
@@ -61,7 +58,6 @@ aspect-ratio: 4/3;
         width:100% ;
         display:flex ;
         justify-content:space-between ;
-        margin-bottom:8vw ;
 
 
         
@@ -82,12 +78,9 @@ aspect-ratio: 4/3;
 @media only screen and (max-width: 700px) and (orientation: portrait) {
 
     width:100vw ;
-height:420vw ;
-
-
 display:flex ;
 justify-content:center ;
-
+margin-bottom:8vw ;
 
 .content{
     width:90% ;
@@ -101,7 +94,7 @@ justify-content:center ;
         font-size: 8vw;
         line-height: 8vw;
         word-spacing: 1.2vw;
-        margin-bottom:28vw ;
+        margin-bottom:22vw ;
     }
     .boxes-container{
         width:100% ;
@@ -122,8 +115,7 @@ word-spacing: 1.2vw;
 padding:1.2vw ;
 margin-bottom:33vw ;
 .heading{
-    width:90% ;
-    height:20% ;
+   
     img{
         width: 100%;
   object-fit: contain;
@@ -138,7 +130,6 @@ aspect-ratio: 4/3;
         flex-direction:column ;
         align-items:center ;
         justify-content:space-between ;
-        margin-bottom:8vw ;
 
 
         

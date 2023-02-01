@@ -14,7 +14,7 @@ export default function Content() {
    
 
   return (
- <HashRouter basename={process.env.PUBLIC_URL}>
+ <HashRouter >
     <HomeStyled>
       <NavigationBar/>
  

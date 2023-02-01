@@ -9,6 +9,7 @@ height:43vw ;
 display:flex ;
 justify-content:center ;
 align-items:center ;
+margin-bottom:10vw ;
 .content{
     height:100% ;
     width: 90%;
@@ -36,28 +37,24 @@ color:#191005 ;
 }
 
 
-.get-started-btn{
-    cursor:pointer ;
-    margin-top:5vw ;
-    font-size:1.4vw ;
-    padding:1vw ;
-    border-radius:0.5vw ;
-    background-color: #191005;
-    color:#F4EEE6 ;
-    transition:0.6s ease-in all ;
-    user-select:none;
-    opacity:0 ;
-    &:hover{
-        background-color: #B57323;
-    color:white ;   
-    }
-}
+
     } 
     .section2{
         width: 60%;
         display:flex ;
         justify-content:flex-end ;
-    
+
+
+     .helping-hand{
+        width: 130%;
+  object-fit: contain;
+  object-position:right ;
+  aspect-ratio: 4/3;
+  opacity:0 ;
+  margin-top: 100%;
+ 
+     
+     }
 }
 }
 
@@ -109,6 +106,7 @@ color:#191005 ;
   object-fit: contain;
   aspect-ratio: 4/3;
   opacity:0 ;
+  margin-top: 100%;
  
      
      }

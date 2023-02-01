@@ -36,6 +36,10 @@ top:-20% ;
     
     }
     
+    a {
+ text-decoration:none ;
+ color:inherit;
+}
 
     .navigations{
         width: 40% ;
@@ -77,6 +81,9 @@ margin-bottom:21px ;
 position: absolute;
 top:-20% ;
 
+
+
+
 .content{
     width:90% ;
     height: 100%;
@@ -91,6 +98,9 @@ top:-20% ;
     cursor: pointer;
     
     }
+
+
+
     
 .menu-icon{
     cursor: pointer;
