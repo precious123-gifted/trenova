@@ -1,15 +1,24 @@
 import React from 'react'
 import { SalesAndMarketingStyle } from './SalesAndMarketing.style'
 import Header from './Header/Header'
-import SevenHoursWorkshopSection from './Seven-hours-workshop/SevenHoursWorkshopSection'
-import PopularCoursesSection from './Popular-courses/PopularCoursesSection'
+import CoursesWeOffer from './CoursesWeOffer/CoursesWeOffer'
+import CourseOutline from './CourseOutline/CourseOutline'
+import { useEffect } from 'react'
+import { useContext } from 'react'
+import { DataContext } from '../App'
+
 
 export default function SalesAndMarketingPage() {
+
+ 
+
+
+
   return (
     <SalesAndMarketingStyle>
         <Header/>
-        <SevenHoursWorkshopSection/>
-        <PopularCoursesSection/>
+        <CoursesWeOffer/>
+        <CourseOutline/>
    
     </SalesAndMarketingStyle>
   )

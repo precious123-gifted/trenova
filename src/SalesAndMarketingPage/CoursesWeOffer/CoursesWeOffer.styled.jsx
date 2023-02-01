@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SevenHoursWorkshopSectionStyle = styled.div`
+export const CoursesWeOfferStyle = styled.div`
 
 @media only screen and (min-width: 700px) {
 width:100vw ;

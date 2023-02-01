@@ -4,6 +4,7 @@ import schoolGrowthSvg from '../../assets/schoolgrowthsvg.png'
 import sellingSkillsSvg from '../../assets/sellingskillssvg.png'
 import businessGrowthSvg from '../../assets/businessgrowthsvg.png'
 import graduateSkillsSvg from '../../assets/graduateskillssvg.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -54,9 +55,10 @@ Nobody is a natural-born salesperson. Anybody can learn to improve their
 sales skills, no matter their current level.
 </div>
 
+<Link className='link' to='/sales-and-marketing' >
 <div className="learn-more-btn">
     <span>LEARN MORE</span>
-</div>
+</div></Link>
 
 </div>
 

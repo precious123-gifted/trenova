@@ -37,7 +37,7 @@ displayNavBar()
     {
       desktopScreens.matches?<div className='navigations'>
          <Link className='link' to='/' >  <div className='navlink' id='home-link'>Home</div></Link>
-      <Link className='link' to='/sales-and-marketing' >  <div className='navlink' id='courses-link'>Courses</div></Link>
+         <Link className='link' to='/sales-and-marketing' >  <div className='navlink' id='courses-link'>Courses</div></Link>
        <div className='navlink' id='about-link'>About Us</div>
         <div  className='navlink' id='contact-link'>Contact Us</div>
         <div className='navlink' id='blog-link'>Blog</div>

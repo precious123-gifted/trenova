@@ -1,12 +1,12 @@
 import React from 'react'
-import { SevenHoursWorkshopSectionStyle } from './SevenHoursWorkshopSection.styled'
+import { CoursesWeOfferStyle } from './CoursesWeOffer.styled'
 import phoneSvg from '../../assets/phone.png'
 import relationshipSvg from '../../assets/relationship-svg.png'
 import obstacleSvg from '../../assets/obstacle-svg.png'
 
-export default function SevenHoursWorkshopSection() {
+export default function CoursesWeOffer() {
   return (
-    <SevenHoursWorkshopSectionStyle>
+    <CoursesWeOfferStyle>
       <div className="content">
 <div className="header">
 courses we offer
@@ -22,7 +22,7 @@ courses we offer
     </div>
     <div id="box" className='box2'>
         <div className="heading"><img draggable='false' src={relationshipSvg} alt="" srcset="" /></div>
-        <div className="writeup">Relationship Building</div>
+        <div className="writeup">Prospecting and Customer Facing</div>
     </div>
 
     <div id="box" className='box3'>
@@ -37,6 +37,6 @@ courses we offer
       </div>
 
 
-    </SevenHoursWorkshopSectionStyle>
+    </CoursesWeOfferStyle>
   )
 }

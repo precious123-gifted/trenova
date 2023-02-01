@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-export const PopularCoursesSectionStyle = styled.div`
+export const CourseOutlineStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:180vh ;
+height:300vh ;
 background-color: #F8F4EF;
 color: #191005;
 display:flex ;
@@ -55,7 +55,7 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:530vw ;
+height:785vw ;
 background-color: #F8F4EF;
 color: #191005;
 display:flex ;

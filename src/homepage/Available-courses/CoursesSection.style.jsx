@@ -12,6 +12,10 @@ export const CoursesSectionStyle = styled.div`
 
 @media only screen and (min-width: 700px) {
 
+    a{
+        text-decoration:none ;
+        color:inherit ;
+    }
     display:flex ;
 justify-content:center ;
 align-items:center ;
