@@ -31,7 +31,6 @@ align-items:center ;
     align-items:center ;
 
     #box{
-        border-radius:0.8vw;
         color:#191005;
         width:40vw ;
         height:45vh ;
@@ -83,12 +82,12 @@ aspect-ratio: 4/3;
 @media only screen and (max-width: 700px) and (orientation: portrait) {
 
     width:100vw ;
-height:455vw ;
+height:420vw ;
 
 
 display:flex ;
 justify-content:center ;
-align-items:center ;
+
 
 .content{
     width:90% ;
@@ -99,10 +98,10 @@ align-items:center ;
 
     .header{
         color:#191005 ;
-        font-size: 5.1vw;
+        font-size: 8vw;
         line-height: 8vw;
         word-spacing: 1.2vw;
-        margin-bottom:15vw ;
+        margin-bottom:28vw ;
     }
     .boxes-container{
         width:100% ;
@@ -111,30 +110,25 @@ align-items:center ;
     align-items:center ;
 
     #box{
-        border-radius:1.5vw;
-        color:#D4B3AD ;
+        color:#191005;
         width:100% ;
-        height:70vw ;
-        background-color:#191005 ;
+        display:flex ;
+        flex-direction:column ;
+        align-items:center ;
         font-family: Arial,Helvetica,sans-serif;
-        font-size: 5.1vw;
-        line-height: 8vw;
-        word-spacing: 1.2vw;
-        padding:1.2vw ;
-        margin-bottom:20vw ;
+font-size: 5.5vw;
+line-height: 6vw;
+word-spacing: 1.2vw;
+padding:1.2vw ;
+margin-bottom:33vw ;
 .heading{
     width:90% ;
     height:20% ;
-    .number-div{
-        font-size:5vw ;
-width: 16%;
-height:40% ;
-border-radius:1000px ;
-background-color:#E9D5BD;
-color:#191005 ;
-display:flex ;
-justify-content:center ;
-align-items:center ;
+    img{
+        width: 100%;
+  object-fit: contain;
+aspect-ratio: 4/3;
+
     }
 }
     }

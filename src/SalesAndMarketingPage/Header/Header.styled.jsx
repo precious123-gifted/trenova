@@ -57,15 +57,6 @@ color:#191005 ;
         width: 60%;
         display:flex ;
         justify-content:flex-end ;
-     .helping-hand{
-        width: 100%;
-  object-fit: contain;
-  object-position: right;
-  aspect-ratio: 4/3;
-  opacity:0 ;
- 
-
-     }
     
 }
 }
@@ -90,7 +81,7 @@ margin-bottom:18vw ;
 
 
     .section1{
-        height:24% ;
+        height:30% ;
 width:100% ;
 display:flex ;
 flex-direction:column ;
@@ -121,20 +112,7 @@ color:#191005 ;
  
      
      }
-    .get-started-btn{
-    cursor:pointer ;
-    font-size:5vw ;
-    padding:3vw ;
-    border-radius:1.6vw ;
-    background-color: #191005;
-    color:#F4EEE6 ;
-    user-select:none;
-    opacity:0 ;
-    &:active{
-        background-color: #B57323;
-    color:white ;   
-    }
-}
+
 }
 }
 }

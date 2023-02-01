@@ -7,6 +7,7 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useContext } from 'react'
 import { DataContext } from '../App'
+import {Link } from 'react-router-dom'
 
 
 
@@ -36,7 +37,7 @@ displayNavBar()
     {
       desktopScreens.matches?<div className='navigations'>
         <div className='navlink' id='courses-link'>Courses</div>
-        <div className='navlink' id='about-link'>About Us</div>
+       <div className='navlink' id='about-link'>About Us</div>
         <div  className='navlink' id='contact-link'>Contact Us</div>
         <div className='navlink' id='blog-link'>Blog</div>
       </div>:null
