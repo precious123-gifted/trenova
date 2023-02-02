@@ -1,4 +1,4 @@
-{ 
+{
   "homepage": "https://precious123-gifted.github.io/trenova-academy",
   "name": "trenova-academy",
   "version": "0.1.65",
@@ -10,6 +10,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.7.0",
     "react-scripts": "^5.0.1",
+    "react-scroll-trigger": "^0.6.14",
     "react-use-effect": "^0.0.1",
     "redux": "^4.2.0",
     "styled-components": "^5.3.6",

@@ -17,7 +17,13 @@ padding-top:6vw ;
         font-size:3vw ;
         margin-bottom:3vw ;
        
-    }  
+    } 
+    .scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+    }
+    
     .header2{
         font-size:2vw ;
         margin-bottom:2vw ;
@@ -70,6 +76,11 @@ padding-top:10vw ;
         margin-bottom:15vw ;
        
     }  
+    .scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+    }
     .header2{
         font-size:6vw ;
         margin-bottom:8vw ;

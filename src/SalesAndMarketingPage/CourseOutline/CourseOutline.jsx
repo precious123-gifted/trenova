@@ -1,28 +1,79 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { CourseOutlineStyle } from './CourseOutline.style'
+import gsap from 'gsap'
+import { useContext } from 'react'
+import { DataContext } from '../../App'
+import ScrollTrigger from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+
+
 
 export default function CourseOutline() {
+
+  const {courseOutline} = useContext(DataContext)
+
+  const scrollIntoView = ( ()=>{
+
+let scrollItem = courseOutline.current.querySelectorAll('.scroll-item')
+
+scrollItem.forEach(item => {
+  
+gsap.to(item,1.6,{
+
+
+  scrollTrigger: {
+    trigger: item,
+    start: "top bottom",
+    toggleActions: "restart none none none",
+    onEnter: (self) => {
+      gsap.to(self.target, {
+        opacity: 0,
+       
+      });
+    },
+  },
+  opacity: 1,
+  bottom:0,
+  
+
+
+})
+
+});
+
+
+  } )
+
+
+
+useEffect( ()=>{
+  scrollIntoView()
+} )
+
+
   return (
-    <CourseOutlineStyle>
+    <CourseOutlineStyle ref={courseOutline}>
       <div className="content">
 
-<div className="header1">
+<div className="header1 scroll-item" >
 PROFESSIONAL SALES & MARKETING SKILLS MASTER CLASS 
 </div>
 
 
 
-<div className="summary1">
+<div className="summary1 scroll-item">
 Nobody is a natural-born salesperson. Anybody can learn to improve their sales skills, no matter their current level.
 You can learn to master all levels of sales skills including telemarketing/telesales, customer-facing, overcoming objections, closing the sale, and devising a marketing strategy that works for you and your business.
 Whether you are an intending telemarketer, sales associate, sales executive, freelance marketer, entrepreneur, sales consultant, CEO, account executive or just interested in developing selling skills, you will benefit from these courses.
 </div>
 
-<div className="header2">
+<div className="header2 scroll-item">
 What you will learn
 </div>
 
-<div className="summary2">
+<div className="summary2 scroll-item">
   <ul>
 <li>The art of successful sales prospecting in person, by phone, text and technology</li>
 <li>The 7 Secrets to Career Success in Sales and Marketing</li>
@@ -38,11 +89,11 @@ What you will learn
 </ul>
 </div>
 
-<div className="header2">
+<div className="header2 scroll-item">
 Who are this courses for
 </div>
 
-<div className="summary2">
+<div className="summary2 scroll-item">
   <ul>
     <li>Young and Intending Sales Professionals</li>
     <li>Account Executives</li>
@@ -57,11 +108,11 @@ Who are this courses for
 </div>
 
 
-<div className="header2">
+<div className="header2 scroll-item">
 Course Description
 </div>
 
-<div className="summary2">
+<div className="summary2 scroll-item">
   <ul>
     <li>Are you interested in learning new and established telemarketing, customer facing and sales-closing techniques?</li>
     <li>Do you want to enhance your confidence in your selling skills and closing techniques like never before?</li>

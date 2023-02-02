@@ -14,12 +14,12 @@ const salesAndMarketingPage = useRef(null)
 const careerDevelopmentPage = useRef(null)
 const graduateAndEmployabilityPage = useRef(null)
 const footer = useRef(null)
-
+const courseOutline = useRef(null)
 
 
   return (
 
-  <DataContext.Provider value = {{navBar,Header}}>
+  <DataContext.Provider value = {{navBar,Header,courseOutline}}>
        <div className="App" role="main">
      <Content/>
     </div>
