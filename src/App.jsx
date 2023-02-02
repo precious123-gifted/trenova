@@ -16,10 +16,19 @@ const graduateAndEmployabilityPage = useRef(null)
 const footer = useRef(null)
 const courseOutline = useRef(null)
 const courseWeOffer = useRef(null)
+const professionalTeleSection = useRef(null)
+const objectionSection = useRef(null)
+const prospectSection = useRef(null)
+
+
+
+
+
 
   return (
 
-  <DataContext.Provider value = {{navBar,Header,courseOutline,courseWeOffer}}>
+  <DataContext.Provider value = {{navBar,Header,courseOutline,courseWeOffer,professionalTeleSection
+  ,objectionSection,prospectSection}}>
        <div className="App" role="main">
      <Content/>
     </div>
