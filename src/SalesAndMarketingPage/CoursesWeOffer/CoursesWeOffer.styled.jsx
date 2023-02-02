@@ -8,6 +8,13 @@ display:flex ;
 justify-content:center ;
 align-items:center ;
 margin-bottom:7vw ;
+
+.scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+        transition:ease-in all ;
+    }
 .content{
     width:90% ;
     
@@ -81,6 +88,13 @@ aspect-ratio: 4/3;
 display:flex ;
 justify-content:center ;
 margin-bottom:8vw ;
+
+.scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+        transition:ease-in all ;
+    }
 
 .content{
     width:90% ;

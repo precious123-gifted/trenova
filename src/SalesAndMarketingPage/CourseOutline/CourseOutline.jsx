@@ -18,30 +18,43 @@ export default function CourseOutline() {
 
 let scrollItem = courseOutline.current.querySelectorAll('.scroll-item')
 
+
 scrollItem.forEach(item => {
-  
-gsap.to(item,1.6,{
-
-
-  scrollTrigger: {
+  ScrollTrigger.create({
     trigger: item,
-    start: "top bottom",
+    start: "top center",
     toggleActions: "restart none none none",
-    onEnter: (self) => {
-      gsap.to(self.target, {
-        opacity: 0,
-       
+
+    onEnter: () => {
+      gsap.to(item,1, {
+        opacity: 1,
+        bottom:0,
       });
     },
-  },
-  opacity: 1,
-  bottom:0,
-  
 
+    onLeave: () => {
+      gsap.to(item,1, {
+        opacity: 0,
+        bottom:'70px',
+      });
+    },
+
+    onLeaveBack: () => {
+      gsap.to(item,1, {
+        opacity: 0,
+        bottom:'70px',
+      });
+    },
+
+    onEnterBack: () => {
+      gsap.to(item,1, {
+        opacity: 1,
+        bottom:0,
+      });
+    },
+  })
 
 })
-
-});
 
 
   } )
@@ -73,19 +86,19 @@ Whether you are an intending telemarketer, sales associate, sales executive, fre
 What you will learn
 </div>
 
-<div className="summary2 scroll-item">
+<div className="summary2 ">
   <ul>
-<li>The art of successful sales prospecting in person, by phone, text and technology</li>
-<li>The 7 Secrets to Career Success in Sales and Marketing</li>
-<li>The Core Premises of Sales & Marketing</li>
-<li>The process of Customer Creation</li>
-<li>The Elevator Speech</li>
-<li>Intrinsic and Extrinsic selling</li>
-<li>Prospecting – How to Generate Leads</li>
-<li>You will learn professional telesales and customer-facing skills, such as how to develop a rapport with your clients and work together to set achievable goals</li>
-<li>You will learn updated Sales and Closing Techniques not only through theory but also through practical applications</li>
-<li>How to overcome resistance, view sales objections as opportunities in the sales process, and turn them into closed sales</li>
-<li>How to get past your own limiting beliefs, undesired habits, and mindsets, enhance your confidence and sell more effectively </li>
+<li className='scroll-item'>The art of successful sales prospecting in person, by phone, text and technology</li>
+<li className='scroll-item'>The 7 Secrets to Career Success in Sales and Marketing</li>
+<li className='scroll-item'>The Core Premises of Sales & Marketing</li>
+<li className='scroll-item'>The process of Customer Creation</li>
+<li className='scroll-item'>The Elevator Speech</li>
+<li className='scroll-item'>Intrinsic and Extrinsic selling</li>
+<li className='scroll-item'>Prospecting – How to Generate Leads</li>
+<li className='scroll-item'>You will learn professional telesales and customer-facing skills, such as how to develop a rapport with your clients and work together to set achievable goals</li>
+<li className='scroll-item'>You will learn updated Sales and Closing Techniques not only through theory but also through practical applications</li>
+<li className='scroll-item'>How to overcome resistance, view sales objections as opportunities in the sales process, and turn them into closed sales</li>
+<li className='scroll-item'>How to get past your own limiting beliefs, undesired habits, and mindsets, enhance your confidence and sell more effectively </li>
 </ul>
 </div>
 
@@ -93,17 +106,17 @@ What you will learn
 Who are this courses for
 </div>
 
-<div className="summary2 scroll-item">
+<div className="summary2">
   <ul>
-    <li>Young and Intending Sales Professionals</li>
-    <li>Account Executives</li>
-    <li>Sales Executives</li>
-    <li>SME Owners </li>
-    <li>Young Graduates </li>
-    <li>Freelance Marketers</li>
-    <li>Coaches and Mentors</li>
-    <li>Business Executives & Entrepreneurs</li>
-    <li>Sales Consultants</li>
+    <li className='scroll-item'>Young and Intending Sales Professionals</li>
+    <li className='scroll-item'>Account Executives</li>
+    <li className='scroll-item'>Sales Executives</li>
+    <li className='scroll-item'>SME Owners </li>
+    <li className='scroll-item'>Young Graduates </li>
+    <li className='scroll-item'>Freelance Marketers</li>
+    <li className='scroll-item'>Coaches and Mentors</li>
+    <li className='scroll-item'>Business Executives & Entrepreneurs</li>
+    <li className='scroll-item'>Sales Consultants</li>
 </ul>
 </div>
 
@@ -112,14 +125,14 @@ Who are this courses for
 Course Description
 </div>
 
-<div className="summary2 scroll-item">
+<div className="summary2">
   <ul>
-    <li>Are you interested in learning new and established telemarketing, customer facing and sales-closing techniques?</li>
-    <li>Do you want to enhance your confidence in your selling skills and closing techniques like never before?</li>
-    <li>Would you like to learn proven sales skills and sales processes, as well as powerful sales tools for helping you reach your desired sales performance results?</li>
-    <li>Do you want to understand how your customers think and why people buy what they buy so you can use that to be successful in sales? </li>
-    <li>Do you want to help yourself stand out from the crowd with verified successful sales prospecting techniques?</li>
-    <li>Would you like to earn telemarketing and customer-facing certification and create visible financial success with the skills learned here?</li>
+    <li className='scroll-item' >Are you interested in learning new and established telemarketing, customer facing and sales-closing techniques?</li>
+    <li className='scroll-item'>Do you want to enhance your confidence in your selling skills and closing techniques like never before?</li>
+    <li className='scroll-item'>Would you like to learn proven sales skills and sales processes, as well as powerful sales tools for helping you reach your desired sales performance results?</li>
+    <li className='scroll-item'>Do you want to understand how your customers think and why people buy what they buy so you can use that to be successful in sales? </li>
+    <li className='scroll-item'>Do you want to help yourself stand out from the crowd with verified successful sales prospecting techniques?</li>
+    <li className='scroll-item'>Would you like to earn telemarketing and customer-facing certification and create visible financial success with the skills learned here?</li>
 
 </ul>
 </div>
