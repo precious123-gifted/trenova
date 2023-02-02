@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import CoursesWeOffer from './CoursesWeOffer/CoursesWeOffer'
 import CourseOutline from './CourseOutline/CourseOutline'
 import ProfessionalTelemarketingSection from './ProfessionalTelemarketingSection/ProfessionalTelemarketingSection'
+import ProspectingSection from './ProspectingSection/ProspectingSection'
 import { useEffect } from 'react'
 import { useContext } from 'react'
 import { DataContext } from '../App'
@@ -21,7 +22,7 @@ export default function SalesAndMarketingPage() {
         <CoursesWeOffer/>
         <CourseOutline/>
         <ProfessionalTelemarketingSection/>
-   
+   <ProspectingSection/>
     </SalesAndMarketingStyle>
   )
 }
