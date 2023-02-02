@@ -1,9 +1,16 @@
 import styled from 'styled-components';
 
 export const ProspectingSectionStyle = styled.div`
+.scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+        transition:ease-in all ;
+    }
+
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:260vh ;
+height:165vh ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;

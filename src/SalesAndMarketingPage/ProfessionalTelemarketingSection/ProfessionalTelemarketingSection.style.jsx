@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 export const ProfessionalTelemarketingSectionStyle = styled.div`
+
+.scroll-item{
+        opacity:0 ;
+        position:relative ;
+        bottom:70px ;
+        transition:ease-in all ;
+    }
+
 @media only screen and (min-width: 700px) {
 width:100vw ;
 height:110vh ;
