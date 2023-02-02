@@ -4,7 +4,7 @@ export const ProfessionalTelemarketingSectionStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
 height:150vh ;
-background-color: #B2A696;
+background-color: #A3988A;
 color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
@@ -43,7 +43,7 @@ padding-top:6vw ;
 
     width:100vw ;
 height:400vw ;
-background-color: #B2A696;
+background-color: #A3988A;
 color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
