@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const CourseOutlineStyle = styled.div`
+export const ObjectionSectionStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:400vh ;
-background-color: #F8F4EF;
-color: #191005;
+height:240vh ;
+background-color: #E5C7C1;
+color:#191005 ;
 display:flex ;
 justify-content:center ;
 padding-top:6vw ;
@@ -19,18 +19,27 @@ padding-top:6vw ;
        
     }  
     .header2{
-        font-size:2vw ;
         margin-bottom:2vw ;
+        img{
+            width:30% ;
+    aspect-ratio:3/4;
+    object-fit:contain ;
+        }
        
     }
-    .summary1{
+    .summary{
         font-family:Arial, Helvetica, sans-serif ;
         font-size:1.6vw ;
         line-height: 3vw;
         word-spacing: 0.8vw;
-        margin-bottom:8vw ;
+        margin-bottom:1vw ;
        
+    } 
+    #summary1{
+        margin-bottom:6vw ;
     }
+    
+  
     .summary2{
         font-family:Arial, Helvetica, sans-serif ;
         font-size:1.6vw ;
@@ -55,9 +64,9 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:1060vw ;
-background-color: #F8F4EF;
-color: #191005;
+height:580vw ;
+background-color: #E5C7C1;
+color:#191005 ;
 display:flex ;
 justify-content:center ;
 padding-top:10vw ;
@@ -71,19 +80,23 @@ padding-top:10vw ;
        
     }  
     .header2{
-        font-size:6vw ;
         margin-bottom:8vw ;
+        img{
+            width:70% ;
+    aspect-ratio:3/4;
+    object-fit:contain ;
+        }
        
     }
-    .summary1{
+    .summary{
         font-family:Arial, Helvetica, sans-serif ;
         font-size: 5.1vw;
         line-height: 8vw;
         word-spacing: 1.2vw;
-        margin-bottom: 14vw;
-        
+        margin-bottom:13vw ;
        
     }
+
     .summary2{
         font-family:Arial, Helvetica, sans-serif ;
         font-size: 5.1vw;
@@ -93,10 +106,8 @@ padding-top:10vw ;
         text-align:left ;
         li{
             margin-bottom:8vw ;
-        }
-       
-    }
-
+        }}
+    
 }
 
 }

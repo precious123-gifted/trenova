@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ProspectingSectionStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:160vh ;
+height:260vh ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;
@@ -46,7 +46,7 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:400vw ;
+height:380vw ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;

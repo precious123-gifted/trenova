@@ -8,20 +8,14 @@ export default function CourseOutline() {
 
 <div className="header1">
 PROFESSIONAL SALES & MARKETING SKILLS MASTER CLASS 
-FOR SALES PERSONNEL & BUSINESS OWNERS
 </div>
 
 
 
 <div className="summary1">
-Nobody is a natural-born salesperson. Anybody can learn to improve their 
-sales skills, no matter their current level. You can learn to master all 
-levels of sales skills including telemarketing/telesales, customer facing, 
-overcoming objections, closing the sale, and devising a marketing strategy
- that works for you and your business.  Whether you are an intending telemarketer, 
- sales associate, sales executive, freelance marketer, entrepreneur, sales 
- consultant, CEO, account executive or just interested in developing selling skills, 
- you will benefit from these courses.
+Nobody is a natural-born salesperson. Anybody can learn to improve their sales skills, no matter their current level.
+You can learn to master all levels of sales skills including telemarketing/telesales, customer-facing, overcoming objections, closing the sale, and devising a marketing strategy that works for you and your business.
+Whether you are an intending telemarketer, sales associate, sales executive, freelance marketer, entrepreneur, sales consultant, CEO, account executive or just interested in developing selling skills, you will benefit from these courses.
 </div>
 
 <div className="header2">
@@ -61,6 +55,25 @@ Who are this courses for
     <li>Sales Consultants</li>
 </ul>
 </div>
+
+
+<div className="header2">
+Course Description
+</div>
+
+<div className="summary2">
+  <ul>
+    <li>Are you interested in learning new and established telemarketing, customer facing and sales-closing techniques?</li>
+    <li>Do you want to enhance your confidence in your selling skills and closing techniques like never before?</li>
+    <li>Would you like to learn proven sales skills and sales processes, as well as powerful sales tools for helping you reach your desired sales performance results?</li>
+    <li>Do you want to understand how your customers think and why people buy what they buy so you can use that to be successful in sales? </li>
+    <li>Do you want to help yourself stand out from the crowd with verified successful sales prospecting techniques?</li>
+    <li>Would you like to earn telemarketing and customer-facing certification and create visible financial success with the skills learned here?</li>
+
+</ul>
+</div>
+
+
 
       </div>
 
