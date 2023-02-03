@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { ObjectionSectionStyle } from './ObjectionSection.style'
 import objectives from '../../assets/objectives.png'
+import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 import { useContext } from 'react'
 import { DataContext } from '../../App'
@@ -114,9 +115,11 @@ After you complete this course, you'll be able to:
 </div>
 
 
+<Link to='/sales-and-marketing/overcoming-objections'>
+
 <div className='get-started-btn scroll-item'>
 <span>GET THIS COURSE</span>
-</div>
+</div></Link>
 
       </div>
 

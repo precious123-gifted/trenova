@@ -47,10 +47,11 @@ COURSE LIST
   <ul>
   <Link to='/sales-and-marketing/professional-telemarketing'> <li><span><img src={arrow} width='20px' alt="" srcset="" /></span> Professional Telemarketing/Telesales Skills and The Core Premises of 
       Marketing that Promote Selling with Confidence</li></Link> 
-    <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Prospecting, Creating Rapport and Building Relationships through
+      <Link to='/sales-and-marketing/overcoming-objections'>  <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Overcoming Objections to Nail the Sale
+</li></Link> 
+<li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Prospecting, Creating Rapport and Building Relationships through
        Customer Facing and Sales Meetings</li>
-    <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Overcoming Objections to Nail the Sale
-</li>
+ 
   </ul>
 </div>
 

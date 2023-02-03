@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
-export const CourseOutlineStyle = styled.div`
+export const Day3Style = styled.div`
+
+
+
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:420vh ;
-background-color: #F8F4EF;
+height:160vh ;
+background-color: #E5CFC1;
 color: #191005;
 display:flex ;
 justify-content:center ;
@@ -26,6 +29,12 @@ padding-top:6vw ;
     
     .header2{
         font-size:2vw ;
+        margin-bottom:2vw ;
+       
+    }
+
+    .header3{
+        font-size:2.4vw ;
         margin-bottom:2vw ;
        
     }
@@ -85,8 +94,8 @@ margin-top:4vw ;
 
 
     width:100vw ;
-height:1078vw ;
-background-color: #F8F4EF;
+height:315vw ;
+background-color: #E5CFC1;
 color: #191005;
 display:flex ;
 justify-content:center ;
@@ -107,6 +116,11 @@ padding-top:10vw ;
     }
     .header2{
         font-size:6vw ;
+        margin-bottom:8vw ;
+       
+    }
+    .header3{
+        font-size:6.5vw ;
         margin-bottom:8vw ;
        
     }
@@ -141,7 +155,7 @@ padding-top:10vw ;
     color:white ;
     user-select:none;
     opacity:1 ;
-    margin-top:5vw ;
+    margin-top:6vw ;
     &:active{
         background-color: #B57323;
     color:white ;   
