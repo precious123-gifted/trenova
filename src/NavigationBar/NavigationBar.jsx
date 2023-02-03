@@ -45,7 +45,7 @@ displayNavBar()
     }  
      {
       mobileScreens.matches?<div className='menu-icon'>
-        <span className='courses-icon'>courses</span>
+       <Link className='link' to='/sales-and-marketing' > <span className='courses-icon'>courses</span></Link>
        <img draggable="false"  src={menuIcon} alt="" srcset="" className='menu-hambuger'/>
       </div>:null
     } 
