@@ -37,7 +37,7 @@ const slideMenuInAndOut = () =>{
 const menuHolder = navBar.current.querySelector('.menu-box')
 const sideBar = navBar.current.querySelector('.side-bar')
 
- gsap.to(sideBar,0.5,{top:menuState? '20%' : '-100%',})  
+ gsap.to(sideBar,0.8,{top:menuState? '20%' : '-100%',})  
 
 
 menuHolder.addEventListener('click',()=>{
