@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect } from 'react'
-import useref from 'useref'
 import { CoursesWeOfferStyle } from './CoursesWeOffer.styled'
 import phoneSvg from '../../assets/phone.png'
 import relationshipSvg from '../../assets/relationship-svg.png'
