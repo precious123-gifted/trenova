@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trenova-academy/static/css/main.39cefa96.css",
-    "main.js": "/trenova-academy/static/js/main.19cf4e2f.js",
+    "main.js": "/trenova-academy/static/js/main.5444ff8a.js",
     "static/js/496.fe5f3da1.chunk.js": "/trenova-academy/static/js/496.fe5f3da1.chunk.js",
     "static/media/objectives.png": "/trenova-academy/static/media/objectives.d1ae6d45415a8ba65f17.png",
     "static/media/graduateskillssvg.png": "/trenova-academy/static/media/graduateskillssvg.e2488ff8b907aa2fd972.png",
@@ -13,6 +13,7 @@
     "static/media/Queue-amico.png": "/trenova-academy/static/media/Queue-amico.0f915b2c7d23a434bd11.png",
     "static/media/objectives-header.png": "/trenova-academy/static/media/objectives-header.ad39b1f91aaddcfc36bc.png",
     "static/media/obstacle-svg.png": "/trenova-academy/static/media/obstacle-svg.a7773f9ec45972bd47c7.png",
+    "static/media/relationship-header.png": "/trenova-academy/static/media/relationship-header.5beaf387870feb599d8a.png",
     "static/media/HELPING HANDS FRAME.png": "/trenova-academy/static/media/HELPING HANDS FRAME.fd44bfebc27b18bb7dc8.png",
     "static/media/relationship-svg.png": "/trenova-academy/static/media/relationship-svg.68e4c74af5e688aeedb8.png",
     "static/media/Contact us.png": "/trenova-academy/static/media/Contact us.48429ec867c6115d30cf.png",
@@ -22,11 +23,11 @@
     "static/media/trenovo-logo.png": "/trenova-academy/static/media/trenovo-logo.ce7ba033e3fd23306ab0.png",
     "index.html": "/trenova-academy/index.html",
     "main.39cefa96.css.map": "/trenova-academy/static/css/main.39cefa96.css.map",
-    "main.19cf4e2f.js.map": "/trenova-academy/static/js/main.19cf4e2f.js.map",
+    "main.5444ff8a.js.map": "/trenova-academy/static/js/main.5444ff8a.js.map",
     "496.fe5f3da1.chunk.js.map": "/trenova-academy/static/js/496.fe5f3da1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39cefa96.css",
-    "static/js/main.19cf4e2f.js"
+    "static/js/main.5444ff8a.js"
   ]
 }
