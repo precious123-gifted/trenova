@@ -46,7 +46,8 @@ top:-20% ;
 }
 
     .navigations{
-        width: 40% ;
+        /* width: 40% ; */
+        width: 30% ;
         height: 100%;
         display:flex ;
         justify-content:space-between ;
@@ -86,7 +87,19 @@ position: absolute;
 top:-20% ;
 
 
-
+.side-bar{
+    border-bottom-left-radius:1vw ;
+    border-bottom-right-radius:1vw ;
+    position:absolute ;
+    background-color:  #E5D9C1 ;
+    color:#1A1005 ;
+    font-size:4.5vw ;
+    width:60vw ;
+    height:10vw ;
+    display:flex ;
+    justify-content:space-around ;
+    align-items:center ;
+}
 
 .content{
     width:90% ;

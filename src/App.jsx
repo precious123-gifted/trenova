@@ -23,7 +23,7 @@ const day2 = useRef(null)
 const day3 = useRef(null)
 const day4 = useRef(null)
 const day5 = useRef(null)
-
+const about = useRef(null)
 
 
 
@@ -32,7 +32,7 @@ const day5 = useRef(null)
   return (
 
   <DataContext.Provider value = {{navBar,header,courseOutline,courseWeOffer,professionalTeleSection
-  ,objectionSection,prospectSection,day2,day3,day4,day5}}>
+  ,objectionSection,prospectSection,day2,day3,day4,day5,about,contactPage}}>
        <div className="App" role="main">
      <Content/>
     </div>
