@@ -108,7 +108,7 @@ Day 4: Developing Your Script
 
 
 
-<Link to='/sales-and-marketing/professional-telemarketing'>
+<Link to='#'>
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>

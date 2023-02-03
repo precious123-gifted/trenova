@@ -107,7 +107,7 @@ Day 2: How to Build Trust
 
 
 
-<Link to='/sales-and-marketing/professional-telemarketing'>
+<Link to='#'>
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>

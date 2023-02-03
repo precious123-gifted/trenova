@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeaderStyle } from './Header.styled'
-import phoneHeader from '../../../assets/phone-header.png'
+import relationshipHeader from '../../../assets/relationship-header.png'
 import { useContext } from 'react'
 import { DataContext } from '../../../App'
 import { useEffect } from 'react'
@@ -39,20 +39,19 @@ export default function Header() {
 <div className='content'>
 <div className='section1'>
 <div className='header-text'>
-PROFESSIONAL
-TELEMARKETING
+PROSPECTING AND CUSTOMER FACING
+</div>
+<div className="summary">
+Creating Repport and Building Relationships through Customer Facing and Sales Meetings
 </div>
 
-<div className='summary'>
-Finding and closing successful deals through the phon without breaking the bank
-</div>
 
 
 </div>
 <div className='section2'>
 {
-desktopScreens.matches?<img draggable="false"  src={phoneHeader} className='helping-hand' alt="" srcset="" />
- : mobileScreens.matches?<img draggable="false"  src={phoneHeader} className='helping-hand' alt="" srcset="" />
+desktopScreens.matches?<img draggable="false"  src={relationshipHeader} className='helping-hand' alt="" srcset="" />
+ : mobileScreens.matches?<img draggable="false"  src={relationshipHeader} className='helping-hand' alt="" srcset="" />
  :null
 }
 

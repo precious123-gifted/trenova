@@ -43,6 +43,7 @@ color:#191005 ;
         word-spacing: 0.8vw;
         margin-bottom:1vw ;
         text-align: left;
+       
     } 
 
 .get-started-btn{

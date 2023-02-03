@@ -74,26 +74,6 @@ useEffect( ()=>{
 
 
 
-<div className="header2 scroll-item">
-COURSE CONTENT DETAILS
-</div>
-<div className="header3 scroll-item">
-Day 5: Closing the Sale
-</div>
-
-<div className="summary2 ">
-  <ul>
-<li className='scroll-item'>Asking for the Sale</li>
-<li className='scroll-item'>Clearing Away Objections</li>
-<li className='scroll-item'>Closing the Sale</li>
-<li className='scroll-item'>Example Closing Strategies</li>
-<li className='scroll-item'>Using Closing Techniques</li>
-<li className='scroll-item'>Persistence Pays Off</li>
-
-
-
-</ul>
-</div>
 
 <div className="header3 scroll-item">
 Who is this course for?
@@ -116,7 +96,7 @@ Who is this course for?
 
 
 <div className="header3 scroll-item">
-Training Fee: N69,950 for 5 days
+Training Fee: N43,950 for 3 days
 </div>
 
 <div className="header3 scroll-item">

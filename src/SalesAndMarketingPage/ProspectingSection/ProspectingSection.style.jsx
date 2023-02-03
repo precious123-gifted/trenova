@@ -75,7 +75,7 @@ margin-top:4vw ;
 
 
     width:100vw ;
-height:390vw ;
+height:400vw ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;

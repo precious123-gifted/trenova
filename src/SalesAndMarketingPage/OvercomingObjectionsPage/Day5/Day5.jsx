@@ -124,7 +124,7 @@ Training Fee: N14,950 per day
 </div>
 
 
-<Link to='/sales-and-marketing/professional-telemarketing'>
+<Link to='#'>
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>

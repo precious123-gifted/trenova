@@ -42,7 +42,7 @@ color:#191005 ;
         line-height: 3vw;
         word-spacing: 0.8vw;
         margin-bottom:1vw ;
-       
+        text-align: left;
     } 
 
 .get-started-btn{
@@ -121,7 +121,7 @@ color:#191005 ;
         line-height: 8vw;
         word-spacing: 1.2vw;
         margin-bottom: 14vw;
-        
+        text-align: left;
        
     }
 

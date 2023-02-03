@@ -78,27 +78,27 @@ useEffect( ()=>{
 COURSE CONTENT DETAILS
 </div>
 <div className="header3 scroll-item">
-Day 2: Handling Customer Complaints and Overcoming Objections
+Day 2: Warming Up Cold Calls and Building Rapport
 </div>
 
 <div className="summary2 ">
   <ul>
-<li className='scroll-item'>Looking For Clues</li>
-<li className='scroll-item'>Checklist for Success</li>
-<li className='scroll-item'>Body Movements</li>
-<li className='scroll-item'>Facial Expressions</li>
-<li className='scroll-item'>Grooming</li>
-<li className='scroll-item'>Posture</li>
-<li className='scroll-item'>Reading People</li>
-<li className='scroll-item'>Some Light Reading</li>
-<li className='scroll-item'>Find Complaints and Fix Them</li>
-<li className='scroll-item'>Self-Analysis - Calling Your Clients</li>
-<li className='scroll-item'>Self-Analysis - Fixing Complaints</li>
-<li className='scroll-item'>Handling Complaints</li>
-<li className='scroll-item'>What are Objections?</li>
-<li className='scroll-item'>Attitude Check!</li>
-<li className='scroll-item'>Keep Your Brain in Check!</li>
-<li className='scroll-item'>Controlling Your Reactions</li>
+<li className='scroll-item'>Attracting new customers</li>
+<li className='scroll-item'>The Magic Number</li>
+<li className='scroll-item'>A Cure for Call Reluctance</li>
+<li className='scroll-item'>Other Tips for Making Calls</li>
+<li className='scroll-item'>Getting Your Message Through</li>
+<li className='scroll-item'>Openers</li>
+<li className='scroll-item'>Creating Your Opener</li>
+<li className='scroll-item'>Creating Your Opener</li>
+<li className='scroll-item'>My Cold Call Strategy</li>
+<li className='scroll-item'>The basic selling processes</li>
+<li className='scroll-item'>The sales meeting</li>
+<li className='scroll-item'>Preparing proposals and pitches</li>
+<li className='scroll-item'>How to build rapport and create mega credibility</li>
+<li className='scroll-item'>Identification of needs </li>
+<li className='scroll-item'>How to present the solution </li>
+<li className='scroll-item'>Converting prospects into clients using RIA</li>
 
 
 

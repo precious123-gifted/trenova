@@ -143,7 +143,7 @@ Day 1: Your Competitions and How to Build Credibility
 
 
 
-<Link to='/sales-and-marketing/overcoming-objections'>
+<Link to='#'>
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>

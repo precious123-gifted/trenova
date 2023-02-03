@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { ProspectingSectionStyle } from './ProspectingSection.style'
 import relationshipMeeting from '../../assets/relationship-meeting.png'
+import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 import { useContext } from 'react'
 import { DataContext } from '../../App'
@@ -94,9 +95,11 @@ Sales can be done successfully, creating win-win situations and long-lasting rel
 
 In this course, you will learn proper sales closing techniques designed to help you, not only through theory but also through practical applications, daily sales exercises, creating real-life scenarios and role-playing exercises. </div>
      
+ <Link to='/sales-and-marketing/prospecting-report-and-building-relationships'>
+    
 <div className='get-started-btn scroll-item'>
 <span>GET THIS COURSE</span>
-</div>   
+</div>    </Link>
 
 
       </div>

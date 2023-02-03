@@ -102,7 +102,7 @@ Day 3: Handling Objections and Making Team Work Help
 
 
 
-<Link to='/sales-and-marketing/professional-telemarketing'>
+<Link to='#'>
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>

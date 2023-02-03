@@ -89,15 +89,18 @@ courses we offer
   <div className="heading"><img draggable='false' src={phoneSvg} alt="" srcset="" /></div>
        <Link to='/sales-and-marketing/professional-telemarketing'> <div className="writeup ">Professional Telemarketing</div></Link>
     </div>
+    
+    <div id="box" className='box3 scroll-item'>
+        <div className="heading"><img draggable='false' src={obstacleSvg} alt="" srcset="" /></div>
+        <div className="writeup">Overcoming Objections</div>
+    </div>
+
     <div id="box" className='box2 scroll-item'>
         <div className="heading"><img draggable='false' src={relationshipSvg} alt="" srcset="" /></div>
         <div className="writeup">Prospecting and Customer Facing</div>
     </div>
 
-    <div id="box" className='box3 scroll-item'>
-        <div className="heading"><img draggable='false' src={obstacleSvg} alt="" srcset="" /></div>
-        <div className="writeup">Overcoming Objections</div>
-    </div>
+    
 </div>
 
 
