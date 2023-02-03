@@ -10,7 +10,7 @@ export const ProspectingSectionStyle = styled.div`
 
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:165vh ;
+height:175vh ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;
@@ -41,6 +41,28 @@ padding-top:6vw ;
         word-spacing: 0.8vw;
        
     }
+
+    .get-started-btn {
+margin-top:4vw ;
+        span{
+          cursor:pointer ;
+    margin-top:5vw ;
+    font-size:1.4vw ;
+    padding:1vw ;
+    border-radius:0.5vw ;
+    background-color: #191502;
+    color:white ;
+    transition:0.6s ease-in all ;
+    user-select:none;
+    opacity:1 ;
+    &:hover{
+        background-color: #B57323;
+    color:white ;   
+    }   
+        }
+   
+}
+
 }
 
 
@@ -53,7 +75,7 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:380vw ;
+height:390vw ;
 background-color: #A38E8A;
 color:#F8F4F4 ;
 display:flex ;
@@ -84,6 +106,23 @@ padding-top:10vw ;
         word-spacing: 1.2vw;
        
     }
+
+    .get-started-btn{
+    cursor:pointer ;
+    font-size:5vw ;
+    padding:3vw ;
+    border-radius:1.6vw ;
+    background-color: #191502;
+    color:white ;
+    user-select:none;
+    opacity:1 ;
+    margin-top:5vw ;
+    &:active{
+        background-color: #B57323;
+    color:white ;   
+    }
+}
+
 }
 
 }

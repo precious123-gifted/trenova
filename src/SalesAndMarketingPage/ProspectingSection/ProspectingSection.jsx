@@ -84,6 +84,8 @@ Prospecting, Creating Rapport and Building Relationships through Customer Facing
 
 <div className="header2 scroll-item">
 <img src={relationshipMeeting} alt="" srcset="" />
+
+
 </div>
 
 <div className="summary scroll-item">
@@ -91,6 +93,12 @@ Selling has been around for thousands of years, but even to this day, most peopl
 Sales can be done successfully, creating win-win situations and long-lasting relationships. Learn how you can do that by joining the Professional Sales Skills Master Class today and Becoming a sales Consultant, perfecting your sales skills and teaching others to do the same.
 
 In this course, you will learn proper sales closing techniques designed to help you, not only through theory but also through practical applications, daily sales exercises, creating real-life scenarios and role-playing exercises. </div>
+     
+<div className='get-started-btn scroll-item'>
+<span>GET THIS COURSE</span>
+</div>   
+
+
       </div>
 
 

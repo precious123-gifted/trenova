@@ -11,11 +11,15 @@ import ProspectingSection from './ProspectingSection/ProspectingSection'
 import ObjectionSection from './ObjectionSection/ObjectionSection'
 
 
-
-
 export default function SalesAndMarketingPage() {
 
  
+  const {navBar} = useContext(DataContext)
+
+useEffect(() => {
+navBar.current.scrollIntoView()
+}, )
+
 
 
   return (

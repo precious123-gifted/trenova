@@ -36,6 +36,15 @@ color:#191005 ;
 }
 
 
+.summary{
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size:1.6vw ;
+        line-height: 3vw;
+        word-spacing: 0.8vw;
+        margin-bottom:1vw ;
+       
+    } 
+
 .get-started-btn{
     cursor:pointer ;
     margin-top:5vw ;
@@ -81,7 +90,7 @@ height:150vw ;
 display:flex ;
 justify-content:center ;
 align-items:center ;
-margin-bottom:18vw ;
+
 .content{
     height:100% ;
     width: 90%;
@@ -91,7 +100,7 @@ margin-bottom:18vw ;
 
 
     .section1{
-        height:24% ;
+        height:32% ;
 width:100% ;
 display:flex ;
 flex-direction:column ;
@@ -106,6 +115,15 @@ color:#191005 ;
     opacity:0 ;
 }
 
+.summary{
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 5.1vw;
+        line-height: 8vw;
+        word-spacing: 1.2vw;
+        margin-bottom: 14vw;
+        
+       
+    }
 
     } 
     .section2{

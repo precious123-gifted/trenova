@@ -114,7 +114,9 @@ After you complete this course, you'll be able to:
 </div>
 
 
-
+<div className='get-started-btn scroll-item'>
+<span>GET THIS COURSE</span>
+</div>
 
       </div>
 

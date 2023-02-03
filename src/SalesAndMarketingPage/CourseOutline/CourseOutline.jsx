@@ -1,5 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
+
 import { CourseOutlineStyle } from './CourseOutline.style'
 import gsap from 'gsap'
 import { useContext } from 'react'
@@ -137,7 +139,11 @@ Course Description
 </ul>
 </div>
 
+<Link to='/sales-and-marketing/professional-telemarketing'>
 
+<div className='get-started-btn scroll-item'>
+<span>GET THIS COURSE</span>
+</div></Link>
 
       </div>
 

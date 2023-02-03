@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CourseOutlineStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:400vh ;
+height:420vh ;
 background-color: #F8F4EF;
 color: #191005;
 display:flex ;
@@ -49,6 +49,30 @@ padding-top:6vw ;
         }
        
     }
+
+
+    .get-started-btn {
+margin-top:4vw ;
+        span{
+          cursor:pointer ;
+    margin-top:5vw ;
+    font-size:1.4vw ;
+    padding:1vw ;
+    border-radius:0.5vw ;
+    background-color: #191502;
+    color:white ;
+    transition:0.6s ease-in all ;
+    user-select:none;
+    opacity:1 ;
+    &:hover{
+        background-color: #B57323;
+    color:white ;   
+    }   
+        }
+   
+}
+
+
 }
 
 
@@ -61,7 +85,7 @@ padding-top:6vw ;
 
 
     width:100vw ;
-height:1060vw ;
+height:1073vw ;
 background-color: #F8F4EF;
 color: #191005;
 display:flex ;
@@ -107,6 +131,22 @@ padding-top:10vw ;
         }
        
     }
+
+    .get-started-btn{
+    cursor:pointer ;
+    font-size:5vw ;
+    padding:3vw ;
+    border-radius:1.6vw ;
+    background-color: #191502;
+    color:white ;
+    user-select:none;
+    opacity:1 ;
+    margin-top:5vw ;
+    &:active{
+        background-color: #B57323;
+    color:white ;   
+    }
+}
 
 }
 

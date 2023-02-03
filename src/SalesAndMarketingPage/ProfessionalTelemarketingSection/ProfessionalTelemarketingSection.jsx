@@ -87,6 +87,10 @@ Hence, it’s important to evaluate how salespeople use the phone as it’s goin
 As they make sales calls, handle enquiries, give quotes, take orders, and close sales negotiations over the phone, negative phone calls and poor phone interaction could result in missed opportunities and direct loss of sales.
 This course will show participants how the phone can supplement, enhance, and sometimes replace other means of marketing and selling, and how this personal approach can dramatically increase their sales success. It equally teaches the skills that enable you to work for foreign organisations and earn money in the dollar while staying in Nigeria.…
 </div>
+
+<div className='get-started-btn scroll-item'>
+<span>GET THIS COURSE</span>
+</div>
       </div>
 
 

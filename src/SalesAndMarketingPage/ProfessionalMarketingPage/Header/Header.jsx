@@ -1,7 +1,5 @@
 import React from 'react'
 import { HeaderStyle } from './Header.styled'
-import helpingHandsSvg from '../../../assets/HELPING HANDS FRAME.png'
-import helpingHandsMobileSvg from '../../../assets/HELPING HANDS FRAME mobile.png'
 import phoneHeader from '../../../assets/phone-header.png'
 import { useContext } from 'react'
 import { DataContext } from '../../../App'
@@ -17,14 +15,14 @@ export default function Header() {
 
 
 
-  const {Header} = useContext(DataContext)
+  const {header} = useContext(DataContext)
 
 
 
   const displayHeaderContent = () =>{
-    let headerText = Header.current.querySelector('.header-text')
-    let getStartedButton = Header.current.querySelector('.get-started-btn')
-    let helpingHandSvg = Header.current.querySelector('.helping-hand')
+    let headerText = header.current.querySelector('.header-text')
+    let getStartedButton = header.current.querySelector('.get-started-btn')
+    let helpingHandSvg = header.current.querySelector('.helping-hand')
    gsap.to(headerText,1,{top:0,opacity:1,})
    gsap.to(getStartedButton,0.4,{opacity:1,})
    gsap.to(helpingHandSvg,1,{opacity:1,marginTop:0,})
@@ -37,7 +35,7 @@ export default function Header() {
   },)
 
   return (
-    <HeaderStyle ref={Header}>
+    <HeaderStyle ref={header}>
 <div className='content'>
 <div className='section1'>
 <div className='header-text'>
@@ -45,7 +43,9 @@ PROFESSIONAL
 TELEMARKETING
 </div>
 
-
+<div className='summary'>
+Finding and closing successful deals through the phone… without breaking the bank
+</div>
 
 
 </div>
@@ -55,10 +55,8 @@ desktopScreens.matches?<img draggable="false"  src={phoneHeader} className='help
  : mobileScreens.matches?<img draggable="false"  src={phoneHeader} className='helping-hand' alt="" srcset="" />
  :null
 }
-{
-mobileScreens.matches?<div className='get-started-btn'>
-<span>GET STARTED</span>
-</div>:null}
+
+
 
 </div>
 </div>
