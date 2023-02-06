@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.39cefa96.css",
-    "main.js": "/static/js/main.725f64da.js",
+    "main.js": "/static/js/main.60a0160d.js",
     "static/js/496.fe5f3da1.chunk.js": "/static/js/496.fe5f3da1.chunk.js",
     "static/media/objectives.png": "/static/media/objectives.d1ae6d45415a8ba65f17.png",
     "static/media/graduateskillssvg.png": "/static/media/graduateskillssvg.e2488ff8b907aa2fd972.png",
@@ -23,11 +23,11 @@
     "static/media/trenovo-logo.png": "/static/media/trenovo-logo.ce7ba033e3fd23306ab0.png",
     "index.html": "/index.html",
     "main.39cefa96.css.map": "/static/css/main.39cefa96.css.map",
-    "main.725f64da.js.map": "/static/js/main.725f64da.js.map",
+    "main.60a0160d.js.map": "/static/js/main.60a0160d.js.map",
     "496.fe5f3da1.chunk.js.map": "/static/js/496.fe5f3da1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39cefa96.css",
-    "static/js/main.725f64da.js"
+    "static/js/main.60a0160d.js"
   ]
 }
