@@ -11,6 +11,7 @@ import ProspectingSection from './ProspectingSection/ProspectingSection'
 import ObjectionSection from './ObjectionSection/ObjectionSection'
 
 
+
 export default function SalesAndMarketingPage() {
 
  
@@ -30,8 +31,8 @@ navBar.current.scrollIntoView()
         {/* <ProfessionalTelemarketingSection/> */}
     <ObjectionSection/>
     <ProspectingSection/>
-   
+      
     </SalesAndMarketingStyle>
-   
+
   )
 }

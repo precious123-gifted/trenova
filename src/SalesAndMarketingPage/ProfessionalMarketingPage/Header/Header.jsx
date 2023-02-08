@@ -44,7 +44,7 @@ TELEMARKETING
 </div>
 
 <div className='summary'>
-Finding and closing successful deals through the phon without breaking the bank
+Finding and closing successful deals through the phone without breaking the bank
 </div>
 
 

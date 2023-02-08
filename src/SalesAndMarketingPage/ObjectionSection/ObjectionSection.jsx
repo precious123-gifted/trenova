@@ -115,7 +115,7 @@ After you complete this course, you'll be able to:
 </div>
 
 
-<Link to='/sales-and-marketing/overcoming-objections'>
+<Link to='/overcoming-objections'>
 
 <div className='get-started-btn scroll-item'>
 <span>GET THIS COURSE</span>

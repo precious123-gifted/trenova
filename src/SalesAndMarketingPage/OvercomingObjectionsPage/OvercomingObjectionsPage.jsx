@@ -9,6 +9,7 @@ import Day2 from './Day2/Day2'
 import Day3 from './Day3/Day3'
 import Day4 from './Day4/Day4'
 import Day5 from './Day5/Day5'
+import PaymentContainer from './PaymentContainer/PaymentContainer'
 
 
 
@@ -34,6 +35,7 @@ navBar.current.scrollIntoView()
  <Day3/>
  <Day4/>
  <Day5/>
+ <PaymentContainer/>
     </OvercomingObjectionsPageStyle>
   )
 }

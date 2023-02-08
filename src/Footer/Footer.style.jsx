@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 export const FooterStyle = styled.div`
+a{
+    color:inherit ;
+    text-decoration:none ;
+    &:hover{
+        text-decoration:underline ;
+    }
+}
+
   @media only screen and (min-width: 700px) {
 
 width:100vw ;

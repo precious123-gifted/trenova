@@ -6,6 +6,7 @@ import { useState } from 'react'
 import menuIcon from '../assets/menu-hamburger.png'
 import exitIcon from '../assets/menu-exit.png'
 import gsap from 'gsap'
+import { Power2 } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useContext } from 'react'
 
@@ -13,6 +14,15 @@ import { DataContext } from '../App'
 import {Link } from 'react-router-dom'
 
 
+const debounce = (fn, delay) => {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      fn(...args);
+    }, delay);
+  };
+};
 
 export default function NavigationBar() {
   var mobileScreens = window.matchMedia("(max-width: 700px)")
@@ -32,16 +42,42 @@ const displayNavBar = () =>{
 const [menuState,setMenuState] = useState(false)
 let menu = menuState? exitIcon: menuIcon 
 
-const slideMenuInAndOut = () =>{
+
+//reduce slider top value to display slider only when i click on the menu icon and also hide the 
+//slider if it is already visible
+
+
+
+// const toggleSliderInAndOut = () =>{
+//   const menuHolder = navBar.current.querySelector('.menu-box')
+//   const sideBar = navBar.current.querySelector('.side-bar')
+//   menuHolder.addEventListener('click',()=>{
+// if(sideBar.top === '-100%'){
+//  gsap.to(sideBar,0.8,{top:'20%',ease: Power2.easeOut})  
+// }
+
+// else if (sideBar.top === '20%'){
+//   gsap.to(sideBar,0.8,{top:'-100%',ease: Power2.easeOut}) 
+// }
+
+//   })
+
+// }
+
+
+
+
+const slideMenuInAndOut = debounce(() =>{
   
 const menuHolder = navBar.current.querySelector('.menu-box')
 const sideBar = navBar.current.querySelector('.side-bar')
 
- gsap.to(sideBar,0.8,{top:menuState? '20%' : '-100%',})  
+ gsap.to(sideBar,0.8,{top:menuState? '20%' : '-100%',ease: Power2.easeOut})  
 
 
 menuHolder.addEventListener('click',()=>{
 setMenuState(!menuState)
+console.log(menuState)
 
  
 
@@ -50,7 +86,7 @@ setMenuState(!menuState)
 
 
 
-}
+})
 
 
 
@@ -63,7 +99,7 @@ useEffect(() => {
 displayNavBar()
 if(mobileScreens.matches){
 
- slideMenuInAndOut() 
+slideMenuInAndOut()
 }
 
 
@@ -75,7 +111,7 @@ if(mobileScreens.matches){
     <img draggable="false" src={trenovaLogo} id='trenova-logo' alt="" srcset="" />  
     {
       desktopScreens.matches?<div className='navigations'>
-         <Link className='link' to='/sales-and-marketing' >  <div className='navlink' id='home-link'>Home</div></Link>
+         <Link className='link' to='/' >  <div className='navlink' id='home-link'>Home</div></Link>
          {/* <Link className='link' to='/sales-and-marketing' >  <div className='navlink' id='courses-link'>Courses</div></Link> */}
          <Link className='link' to='/about-trenova'><div className='navlink' id='about-link'>About Us</div></Link>
        <Link className='link' to='/contact'><div  className='navlink' id='contact-link'>Contact Us</div></Link> 
@@ -85,7 +121,7 @@ if(mobileScreens.matches){
      {
       mobileScreens.matches?<div className='menu-icon'>
        {/* <Link className='link' to='/sales-and-marketing' > <span className='courses-icon'>courses</span></Link> */}
-       <Link className='link' to='/sales-and-marketing' > <span className='courses-icon'>Home</span></Link>
+       <Link className='link' to='/' > <span className='courses-icon'>Home</span></Link>
        <div className="menu-box"><img draggable="false"  src={menu} alt="" srcset=""  className='menu-hambuger'/></div>
       </div>:null
     } 

@@ -87,7 +87,7 @@ courses we offer
 <div className="section1">
  <div id="box" className='box1 scroll-item'>
   <div className="heading"><img draggable='false' src={phoneSvg} alt="" srcset="" /></div>
-       <Link to='/sales-and-marketing/professional-telemarketing'> <div className="writeup ">Professional Telemarketing</div></Link>
+       <Link to='/professional-telemarketing'> <div className="writeup ">Professional Telemarketing</div></Link>
     </div>
     
     <div id="box" className='box3 scroll-item'>

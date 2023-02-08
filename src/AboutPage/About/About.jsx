@@ -13,6 +13,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
 
+  const {navBar} = useContext(DataContext)
+
+useEffect(() => {
+navBar.current.scrollIntoView()
+}, )
+
+
   const {about} = useContext(DataContext)
 
   const scrollIntoView = ( ()=>{

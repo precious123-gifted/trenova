@@ -16,6 +16,21 @@ export default function Day2() {
 
   const {day2} = useContext(DataContext)
 
+  const {paymentcontainer} = useContext(DataContext)
+
+
+
+
+  const openPaymentContainer = () =>{
+  let  paymentContainerDiv = paymentcontainer.current
+  let paymentBTN = day2.current.querySelector('.get-started-btn')
+  
+  paymentBTN.addEventListener('click' , () =>{
+    paymentContainerDiv.style.visibility = 'visible'
+  })
+  
+  }
+
   const scrollIntoView = ( ()=>{
 
 let scrollItem = day2.current.querySelectorAll('.scroll-item')
@@ -65,6 +80,7 @@ scrollItem.forEach(item => {
 
 useEffect( ()=>{
   scrollIntoView()
+  openPaymentContainer()
 } )
 
 

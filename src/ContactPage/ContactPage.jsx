@@ -10,6 +10,11 @@ gsap.registerPlugin(ScrollTrigger);
 export default function ContactPage() {
 
 
+  const {navBar} = useContext(DataContext)
+
+useEffect(() => {
+navBar.current.scrollIntoView()
+}, )
 
 
     const {contactPage} = useContext(DataContext)

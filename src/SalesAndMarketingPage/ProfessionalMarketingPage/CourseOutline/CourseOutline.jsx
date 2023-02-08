@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+
 
 import { CourseOutlineStyle } from './CourseOutline.style'
 import gsap from 'gsap'
@@ -15,6 +15,22 @@ gsap.registerPlugin(ScrollTrigger);
 export default function CourseOutline() {
 
   const {courseOutline} = useContext(DataContext)
+
+  const {paymentcontainer} = useContext(DataContext)
+
+
+
+
+  const openPaymentContainer = () =>{
+  let  paymentContainerDiv = paymentcontainer.current
+  let paymentBTN = courseOutline.current.querySelector('.get-started-btn')
+  
+  paymentBTN.addEventListener('click' , () =>{
+    paymentContainerDiv.style.visibility = 'visible'
+  })
+  
+  }
+
 
   const scrollIntoView = ( ()=>{
 
@@ -65,6 +81,7 @@ scrollItem.forEach(item => {
 
 useEffect( ()=>{
   scrollIntoView()
+  openPaymentContainer()
 } )
 
 
@@ -138,11 +155,11 @@ Day 1: Verbal Communication & Exceptional Things about Telephone Sales
 
 
 
-<Link to='#'>
+
 
 <div className='get-started-btn scroll-item'>
 <span>BUY NOW</span>
-</div></Link>
+</div>
 </div>
 
 

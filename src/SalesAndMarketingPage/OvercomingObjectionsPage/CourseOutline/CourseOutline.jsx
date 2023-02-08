@@ -16,6 +16,23 @@ export default function CourseOutline() {
 
   const {courseOutline} = useContext(DataContext)
 
+
+
+  const {paymentcontainer} = useContext(DataContext)
+
+
+
+
+  const openPaymentContainer = () =>{
+  let  paymentContainerDiv = paymentcontainer.current
+  let paymentBTN = courseOutline.current.querySelector('.get-started-btn')
+  
+  paymentBTN.addEventListener('click' , () =>{
+    paymentContainerDiv.style.visibility = 'visible'
+  })
+  
+  }
+
   const scrollIntoView = ( ()=>{
 
 let scrollItem = courseOutline.current.querySelectorAll('.scroll-item')
@@ -65,6 +82,8 @@ scrollItem.forEach(item => {
 
 useEffect( ()=>{
   scrollIntoView()
+  openPaymentContainer()
+
 } )
 
 

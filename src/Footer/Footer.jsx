@@ -1,5 +1,6 @@
 import React from 'react'
 import { FooterStyle } from './Footer.style'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Footer() {
@@ -14,18 +15,18 @@ owned by TreNova Group</span>
 </div>
 <div className='company-info' id='box'>
 <div className="header">COMPANY INFO</div>
-<span className="info">ABOUT US</span>
-<span className="info">CONTACT US</span>
-<span className="info">EARN-WHILE-YOU-LEARN</span>
-<span className="info">BUSINESS OPPORTUNITIES</span>
+<NavLink to='/about-trenova' className="info">ABOUT US</NavLink>
+<NavLink to='/contact' className="info">CONTACT US</NavLink>
+<a href='https://www.mentornigeria.com/' className="info">EARN-WHILE-YOU-LEARN</a>
+<a href='https://trenovagroup.com/opportunity.php' className="info">BUSINESS OPPORTUNITIES</a>
 </div>
 <div className='other-links' id='box'>
 <div className="header">OTHER LINKS</div>
-<span className="info">TRENOVA GROUPS</span>
-<span className="info">TRENOVA MEDIA</span>
-<span className="info">SCHOOL SUPPORT CENTER</span>
-<span className="info">E-LIBRARY</span>
-<span className="info">PARENT LOYALTY PLATFORM</span>
+<a href='https://trenovagroup.com/' className="info">TRENOVA GROUPS</a>
+<a href='https://media.trenovagroup.com/' className="info">TRENOVA MEDIA</a>
+<a href='https://www.schoolsupportcentre.com/' className="info">SCHOOL SUPPORT CENTER</a>
+<a href='https://library.schoolsupportcentre.com/' className="info">E-LIBRARY</a>
+<a href='https://loyalty.schoolsupportcentre.com/' className="info">PARENT LOYALTY PLATFORM</a>
 </div>
 <div className='contacts' id='box'>
 <div className="header">CONTACTS</div>

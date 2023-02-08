@@ -139,7 +139,7 @@ Course Description
 </ul>
 </div>
 
-<Link to='/sales-and-marketing/professional-telemarketing'>
+<Link to='/professional-telemarketing'>
 
 <div className='get-started-btn scroll-item'>
 <span>GET THIS COURSE</span>
