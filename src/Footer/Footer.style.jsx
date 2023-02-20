@@ -9,6 +9,34 @@ a{
     }
 }
 
+.whatsapp-container{
+    position:fixed ;
+    background: radial-gradient(39.37% 56% at 40.91% 60.63%, #2F1715 0%, #191005 100%) ;
+    height:70px ;
+    width:100px ;
+    top:50% ;
+    left:92.5% ;
+    border-bottom-left-radius:4px;
+    border-top-left-radius:4px;
+    display:flex ;
+    justify-content:center;
+    align-items:center ;
+
+    .con{
+        height:100% ;
+        width:100% ;
+        display:flex ;
+        justify-content:space-around ;
+        align-items:center ;
+
+        .leftArrow{
+            cursor: pointer;
+        }
+        .whatsappLogo{
+            cursor: pointer;
+        }
+    }
+}
   @media only screen and (min-width: 700px) {
 
 width:100vw ;

@@ -104,12 +104,12 @@ After you complete this course, you'll be able to:
 
 <div className="summary2">
   <ul>
-    <li className='scroll-item'>Are you interested in learning new and established telemarketing, customer facing and sales-closing techniques?</li>
-    <li className='scroll-item'>Do you want to enhance your confidence in your selling skills and closing techniques like never before?</li>
-    <li className='scroll-item'>Would you like to learn proven sales skills and sales processes, as well as powerful sales tools for helping you reach your desired sales performance results?</li>
-    <li className='scroll-item'>Do you want to understand how your customers think and why people buy what they buy so you can use that to be successful in sales? </li>
-    <li className='scroll-item'>Do you want to help yourself stand out from the crowd with verified successful sales prospecting techniques?</li>
-    <li className='scroll-item'>Would you like to earn telemarketing and customer-facing certification and create visible financial success with the skills learned here?</li>
+    <li className='scroll-item'>Identify the steps you can take to build your credibility.</li>
+    <li className='scroll-item'>Identify the objections that you encounter most frequently.</li>
+    <li className='scroll-item'>Develop appropriate responses when prospective buyers throw you a curve.</li>
+    <li className='scroll-item'>Learn ways to disarm objections with proven rebuttals that get the sale back on track. </li>
+    <li className='scroll-item'>Learn how to recognize when a prospect is ready to buy.</li>
+    <li className='scroll-item'>Identify how working with your sales team can help you succeed.</li>
 
 </ul>
 </div>

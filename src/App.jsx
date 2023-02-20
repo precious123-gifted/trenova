@@ -13,6 +13,7 @@ const schoolGrowthAndStrategyPage = useRef(null)
 const salesAndMarketingPage = useRef(null)
 const careerDevelopmentPage = useRef(null)
 const graduateAndEmployabilityPage = useRef(null)
+const contentCreationPage = useRef(null)
 const footer = useRef(null)
 const courseOutline = useRef(null)
 const courseWeOffer = useRef(null)
@@ -25,6 +26,8 @@ const day4 = useRef(null)
 const day5 = useRef(null)
 const about = useRef(null)
 const paymentcontainer = useRef(null)
+const contentCreationSection = useRef(null)
+
 
 
 useEffect(() => {
@@ -35,7 +38,7 @@ useEffect(() => {
   return (
 
   <DataContext.Provider value = {{navBar,header,courseOutline,courseWeOffer,professionalTeleSection
-  ,objectionSection,prospectSection,day2,day3,day4,day5,about,contactPage,paymentcontainer}}>
+  ,objectionSection,prospectSection,day2,day3,day4,day5,about,contactPage,paymentcontainer,contentCreationSection,contentCreationPage}}>
        <div className="App" role="main">
      <Content/>
     </div>

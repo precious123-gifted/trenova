@@ -95,7 +95,7 @@ Sales can be done successfully, creating win-win situations and long-lasting rel
 
 In this course, you will learn proper sales closing techniques designed to help you, not only through theory but also through practical applications, daily sales exercises, creating real-life scenarios and role-playing exercises. </div>
      
- <Link to='/sales-and-marketing/prospecting-report-and-building-relationships'>
+ <Link to='/prospecting-report-and-building-relationships'>
     
 <div className='get-started-btn scroll-item'>
 <span>GET THIS COURSE</span>

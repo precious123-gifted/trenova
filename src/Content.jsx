@@ -8,6 +8,7 @@ import SalesAndMarketingPage from './SalesAndMarketingPage/SalesAndMarketingPage
 import ProfessionalMarketingPage from './SalesAndMarketingPage/ProfessionalMarketingPage/ProfessionalMarketingPage.jsx';
 import OvercomingObjectionsPage from './SalesAndMarketingPage/OvercomingObjectionsPage/OvercomingObjectionsPage.jsx';
 import ProspectingPage from './SalesAndMarketingPage/ProspectingPage/ProspectingPage.jsx';
+import ContentCreationPage from './SalesAndMarketingPage/ContentCreationPage/ContentCreationPage.jsx';
 import AboutPage from './AboutPage/AboutPage.jsx';
 import ContactPage from './ContactPage/ContactPage.jsx';
 import Footer from './Footer/Footer.jsx';
@@ -29,6 +30,7 @@ export default function Content() {
       <Route exact path="/" element={<SalesAndMarketingPage/> }/>
      <Route path='/professional-telemarketing' element={<ProfessionalMarketingPage/>} />
      <Route path='/overcoming-objections' element={<OvercomingObjectionsPage/>} />
+     <Route path='/content-creation-and-marketing' element={<ContentCreationPage/>} />
      <Route path='/prospecting-report-and-building-relationships' element={<ProspectingPage/>} />
      <Route path='/about-trenova' element={<AboutPage/>} />
      <Route path='/contact' element={<ContactPage/>} />

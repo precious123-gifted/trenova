@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ObjectionSectionStyle = styled.div`
+export const ContentCreationSectionStyle = styled.div`
 
 .scroll-item{
         opacity:0 ;
@@ -11,9 +11,9 @@ export const ObjectionSectionStyle = styled.div`
 
 @media only screen and (min-width: 700px) {
 width:100vw ;
-height:260vh ;
-background-color: #E5C7C1;
-color:#191005 ;
+height:290vh ;
+background-color: #802B27;
+color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
 padding-top:6vw ;
@@ -95,9 +95,9 @@ margin-top:4vw ;
 
 
     width:100vw ;
-height:512vw ;
-background-color: #E5C7C1;
-color:#191005 ;
+height:690vw ;
+background-color: #802B27;
+color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
 padding-top:10vw ;

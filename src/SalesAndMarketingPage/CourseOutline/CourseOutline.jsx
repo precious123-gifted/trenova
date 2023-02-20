@@ -73,7 +73,7 @@ useEffect( ()=>{
       <div className="content">
 
 <div className="header1 scroll-item" >
-PROFESSIONAL SALES & MARKETING SKILLS MASTER CLASS 
+PROFESSIONAL SALES & MARKETING SKILLS MASTERCLASS 
 </div>
 
 
@@ -97,7 +97,7 @@ What you will learn
 <li className='scroll-item'>The Elevator Speech</li>
 <li className='scroll-item'>Intrinsic and Extrinsic selling</li>
 <li className='scroll-item'>Prospecting – How to Generate Leads</li>
-<li className='scroll-item'>You will learn professional telesales and customer-facing skills, such as how to develop a rapport with your clients and work together to set achievable goals</li>
+<li className='scroll-item'>You will learn professional telesales and customer-facing skills, such as how to develope a repport with your clients and work together to set achievable goals</li>
 <li className='scroll-item'>You will learn updated Sales and Closing Techniques not only through theory but also through practical applications</li>
 <li className='scroll-item'>How to overcome resistance, view sales objections as opportunities in the sales process, and turn them into closed sales</li>
 <li className='scroll-item'>How to get past your own limiting beliefs, undesired habits, and mindsets, enhance your confidence and sell more effectively </li>
@@ -134,7 +134,7 @@ Course Description
     <li className='scroll-item'>Would you like to learn proven sales skills and sales processes, as well as powerful sales tools for helping you reach your desired sales performance results?</li>
     <li className='scroll-item'>Do you want to understand how your customers think and why people buy what they buy so you can use that to be successful in sales? </li>
     <li className='scroll-item'>Do you want to help yourself stand out from the crowd with verified successful sales prospecting techniques?</li>
-    <li className='scroll-item'>Would you like to earn telemarketing and customer-facing certification and create visible financial success with the skills learned here?</li>
+    <li className='scroll-item'>Would you like to earn telemarketing and customer-facing certifications and create visible financial success with the skills learned here?</li>
 
 </ul>
 </div>

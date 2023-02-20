@@ -9,6 +9,7 @@ import CourseOutline from './CourseOutline/CourseOutline'
 // import ProfessionalTelemarketingSection from './ProfessionalTelemarketingSection/ProfessionalTelemarketingSection'
 import ProspectingSection from './ProspectingSection/ProspectingSection'
 import ObjectionSection from './ObjectionSection/ObjectionSection'
+import ContentCreationSection from './ContentCreationSection/ContentCreationSection'
 
 
 
@@ -30,6 +31,7 @@ navBar.current.scrollIntoView()
         <CourseOutline/>
         {/* <ProfessionalTelemarketingSection/> */}
     <ObjectionSection/>
+    <ContentCreationSection/>
     <ProspectingSection/>
       
     </SalesAndMarketingStyle>

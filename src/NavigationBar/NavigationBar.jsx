@@ -34,7 +34,13 @@ export default function NavigationBar() {
 
 
 const displayNavBar = () =>{
+let logo = navBar.current.querySelector('#trenova-logo')
+
  gsap.to(navBar.current,1,{top:0,position:'relative',})
+
+ logo.addEventListener('click',()=>{
+  window.location.href = 'https://www.trenovaacademy.com/'
+ })
 
 }
 
@@ -108,6 +114,7 @@ slideMenuInAndOut()
   return (
    <NavigationBarStyle ref={navBar}>
     <div  className='content'>
+      
     <img draggable="false" src={trenovaLogo} id='trenova-logo' alt="" srcset="" />  
     {
       desktopScreens.matches?<div className='navigations'>

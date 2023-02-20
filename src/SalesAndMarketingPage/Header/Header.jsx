@@ -40,6 +40,7 @@ export default function Header() {
     <HeaderStyle ref={header}>
 <div className='content'>
 <div className='section1'>
+  <div className='header1'>SALES AND MARKETING</div>
 <div className='header-text'>
 COURSE LIST
 </div>
@@ -51,8 +52,11 @@ COURSE LIST
       <Link to='/overcoming-objections'>  <li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Overcoming Objections to Nail the Sale
 </li></Link> 
 
+<Link to='/content-creation-and-marketing'>
+<li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Complete Content Creation & Content Marketing Masterclass</li></Link>
+
 <Link to='/prospecting-report-and-building-relationships'>
-<li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Prospecting, Creating Rapport and Building Relationships through
+<li><span><img src={arrow} width='20px' alt="" srcset="" /></span>Prospecting, Creating Repport and Building Relationships through
        Customer Facing and Sales Meetings</li></Link>
  
   </ul>

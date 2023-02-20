@@ -1,9 +1,23 @@
 import React from 'react'
 import { FooterStyle } from './Footer.style'
 import { NavLink } from 'react-router-dom'
+import whatsappLogo from '../assets/whatsapp-logo.png'
+import leftArrow from '../assets/leftArrow.png'
+
+
+
 
 
 export default function Footer() {
+
+
+
+
+
+
+  
+
+
   return (
     <FooterStyle>
         <div className="content">
@@ -40,6 +54,13 @@ owned by TreNova Group</span>
         </div>
         <footer>
          <span>Trenova Group © 2023</span>   
+
+         <div className="whatsapp-container">
+          <div className="con">
+             <img className='leftArrow' src={leftArrow} alt="" srcset="" />   <a href="https://api.whatsapp.com/send?phone=08179361381"><img  className='whatsappLogo' src={whatsappLogo} alt="" srcset="" /></a>
+          </div>
+        
+         </div>
         </footer>
       
     </FooterStyle>

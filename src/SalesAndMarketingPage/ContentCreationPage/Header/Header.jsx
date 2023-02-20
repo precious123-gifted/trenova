@@ -1,9 +1,8 @@
 import React from 'react'
 import { HeaderStyle } from './Header.styled'
-import helpingHandsSvg from '../../assets/HELPING HANDS FRAME.png'
-import helpingHandsMobileSvg from '../../assets/HELPING HANDS FRAME mobile.png'
+import objectionHeader from '../../../assets/content_creator.png'
 import { useContext } from 'react'
-import { DataContext } from '../../App'
+import { DataContext } from '../../../App'
 import { useEffect } from 'react'
 import gsap from 'gsap'
 
@@ -39,28 +38,22 @@ export default function Header() {
     <HeaderStyle ref={header}>
 <div className='content'>
 <div className='section1'>
-
 <div className='header-text'>
-CAPABILITY
-DEVELOPMENT
-ACADEMY
+Complete Content Creation & Content Marketing
 </div>
-{
-desktopScreens.matches?<div className='get-started-btn'>
-<span>GET STARTED</span>
-</div>:null}
+
+
+
 
 </div>
 <div className='section2'>
 {
-desktopScreens.matches?<img draggable="false"  src={helpingHandsSvg} className='helping-hand' alt="" srcset="" />
- : mobileScreens.matches?<img draggable="false"  src={helpingHandsMobileSvg} className='helping-hand' alt="" srcset="" />
+desktopScreens.matches?<img draggable="false"  src={objectionHeader} className='helping-hand' alt="" srcset="" />
+ : mobileScreens.matches?<img draggable="false"  src={objectionHeader} className='helping-hand' alt="" srcset="" />
  :null
 }
-{
-mobileScreens.matches?<div className='get-started-btn'>
-<span>GET STARTED</span>
-</div>:null}
+
+
 
 </div>
 </div>
