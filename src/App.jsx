@@ -38,7 +38,7 @@ useEffect(() => {
   return (
 
   <DataContext.Provider value = {{navBar,header,courseOutline,courseWeOffer,professionalTeleSection
-  ,objectionSection,prospectSection,day2,day3,day4,day5,about,contactPage,paymentcontainer,contentCreationSection,contentCreationPage}}>
+  ,objectionSection,prospectSection,day2,day3,day4,day5,about,contactPage,paymentcontainer,contentCreationSection,contentCreationPage,footer}}>
        <div className="App" role="main">
      <Content/>
     </div>

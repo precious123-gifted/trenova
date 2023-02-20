@@ -9,13 +9,20 @@ a{
     }
 }
 
-.whatsapp-container{
+
+  @media only screen and (min-width: 700px) {
+
+
+
+    .whatsapp-container{
     position:fixed ;
     background: radial-gradient(39.37% 56% at 40.91% 60.63%, #2F1715 0%, #191005 100%) ;
     height:70px ;
+    /* width:100px ; */
     width:100px ;
-    top:50% ;
-    left:92.5% ;
+    top:80% ;
+    /* left:92.5% ; */
+     left:97% ;
     border-bottom-left-radius:4px;
     border-top-left-radius:4px;
     display:flex ;
@@ -34,10 +41,13 @@ a{
         }
         .whatsappLogo{
             cursor: pointer;
+            visibility:hidden ;
         }
     }
 }
-  @media only screen and (min-width: 700px) {
+
+
+
 
 width:100vw ;
 height:17vw ;
@@ -83,6 +93,41 @@ footer{
 
 
   @media only screen and (max-width: 700px) and (orientation: portrait) {
+
+
+
+    .whatsapp-container{
+    position:fixed ;
+    background: radial-gradient(39.37% 56% at 40.91% 60.63%, #2F1715 0%, #191005 100%) ;
+    height:70px ;
+    width:100px ;
+    top:80% ;
+    left:92.5% ;
+    border-bottom-left-radius:4px;
+    border-top-left-radius:4px;
+    display:flex ;
+    justify-content:center;
+    align-items:center ;
+
+    .con{
+        height:100% ;
+        width:100% ;
+        display:flex ;
+        justify-content:space-around ;
+        align-items:center ;
+
+        .leftArrow{
+            cursor: pointer;
+        }
+        .whatsappLogo{
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
     width:100vw ;
 height:210vw ;
 background: radial-gradient(39.37% 56% at 40.91% 60.63%, #2F1715 0%, #191005 100%) ;

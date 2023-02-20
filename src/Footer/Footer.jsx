@@ -1,6 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react'
+import gsap from 'gsap'
+import { Power2 } from 'gsap'
 import { FooterStyle } from './Footer.style'
 import { NavLink } from 'react-router-dom'
+import { useRef } from 'react'
+import { useState } from 'react'
+import { useContext } from 'react'
+import { DataContext } from '../App'
 import whatsappLogo from '../assets/whatsapp-logo.png'
 import leftArrow from '../assets/leftArrow.png'
 
@@ -10,16 +17,71 @@ import leftArrow from '../assets/leftArrow.png'
 
 export default function Footer() {
 
+  var mobileScreens = window.matchMedia("(max-width: 700px)")
+  var desktopScreens = window.matchMedia("(min-width: 700px)")
+  const [slideOpen,setSlideOpen] = useState(true)
+
+const {footer} = useContext(DataContext)
+
+const toggleSlideWhatsappDivForDesktop = () =>{
+  let leftIcon = footer.current.querySelector('.leftArrow')
+  let whatsappContainer = footer.current.querySelector('.whatsapp-container')
+  let whatsappLogo = footer.current.querySelector('.whatsappLogo')
 
 
 
+leftIcon.addEventListener('click',()=>{
+
+setSlideOpen(!slideOpen)
 
 
-  
+
+   gsap.to(whatsappContainer,{width:slideOpen ?'100px' : !slideOpen? '100px': null ,left:slideOpen ?'92.5%' :!slideOpen? '97%' :null})
+  gsap.to(whatsappLogo,{visibility:slideOpen ?'visible':!slideOpen? 'hidden' :null })
+
+ 
+})
+
+}
+
+
+
+const toggleSlideWhatsappDivForMobile = () =>{
+  let leftIcon = footer.current.querySelector('.leftArrow')
+  let whatsappContainer = footer.current.querySelector('.whatsapp-container')
+  let whatsappLogo = footer.current.querySelector('.whatsappLogo')
+
+
+
+leftIcon.addEventListener('click',()=>{
+
+setSlideOpen(!slideOpen)
+
+
+gsap.to(whatsappContainer,{width:slideOpen ?'100px' : !slideOpen? '100px': null ,left:slideOpen ?'75%' :!slideOpen? '92.5%' :null})
+ gsap.to(whatsappLogo,{visibility:slideOpen ?'visible':!slideOpen? 'hidden' :null })
+
+})
+
+}
+
+
+useEffect(()=>{
+
+  if(desktopScreens.matches){
+toggleSlideWhatsappDivForDesktop()
+  }
+
+  if(mobileScreens.matches){
+    toggleSlideWhatsappDivForMobile()
+      }
+
+})
+
 
 
   return (
-    <FooterStyle>
+    <FooterStyle ref={footer}>
         <div className="content">
 <div className='trenova-group-info' id='box'>
     <div className="header">TRENOVA GROUP</div>
