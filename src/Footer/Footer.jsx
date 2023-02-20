@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom'
 import { useRef } from 'react'
 import { useState } from 'react'
 import { useContext } from 'react'
+import ScrollTrigger from "gsap/ScrollTrigger";
 import { DataContext } from '../App'
 import whatsappLogo from '../assets/whatsapp-logo.png'
 import leftArrow from '../assets/leftArrow.png'
@@ -21,6 +22,9 @@ export default function Footer() {
   var desktopScreens = window.matchMedia("(min-width: 700px)")
   const [slideOpen,setSlideOpen] = useState(true)
 
+
+
+const {objectionSection} = useContext(DataContext) 
 const {footer} = useContext(DataContext)
 
 const toggleSlideWhatsappDivForDesktop = () =>{
@@ -66,15 +70,88 @@ gsap.to(whatsappContainer,{width:slideOpen ?'100px' : !slideOpen? '100px': null 
 }
 
 
+
+const hideOrShowWhatappDivForDesktop = () =>{
+let objectionDiv = objectionSection.current
+let whatsappContainer = footer.current.querySelector('.whatsapp-container')
+let whatsappLogo = footer.current.querySelector('.whatsappLogo')
+
+    ScrollTrigger.create({
+      trigger: objectionDiv,
+      start: "top center",
+      toggleActions: "restart none none none",
+  
+      onEnter: () => {
+             
+        setSlideOpen(true)
+
+
+
+   gsap.to(whatsappContainer,{width:slideOpen ?'100px' : !slideOpen? '100px': null ,left:slideOpen ?'92.5%' :!slideOpen? '97%' :null})
+  gsap.to(whatsappLogo,{visibility:slideOpen ?'visible':!slideOpen? 'hidden' :null })
+
+       
+      },
+  
+   
+     
+  
+     
+  
+    })
+  
+  
+
+}
+
+
+
+const hideOrShowWhatappDivForMobile = () =>{
+  let objectionDiv = objectionSection.current
+  let whatsappContainer = footer.current.querySelector('.whatsapp-container')
+  let whatsappLogo = footer.current.querySelector('.whatsappLogo')
+  
+      ScrollTrigger.create({
+        trigger: objectionDiv,
+        start: "top center",
+        toggleActions: "restart none none none",
+    
+        onEnter: () => {
+               
+          setSlideOpen(true)
+  
+          gsap.to(whatsappContainer,{width:slideOpen ?'100px' : !slideOpen? '100px': null ,left:slideOpen ?'75%' :!slideOpen? '92.5%' :null})
+          gsap.to(whatsappLogo,{visibility:slideOpen ?'visible':!slideOpen? 'hidden' :null })
+  
+         
+        },
+    
+     
+       
+    
+       
+    
+      })
+    
+    
+  
+  }
+
 useEffect(()=>{
 
   if(desktopScreens.matches){
 toggleSlideWhatsappDivForDesktop()
-  }
+  hideOrShowWhatappDivForDesktop()
+
+}
 
   if(mobileScreens.matches){
     toggleSlideWhatsappDivForMobile()
+hideOrShowWhatappDivForMobile()
+
       }
+
+
 
 })
 
