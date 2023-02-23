@@ -12,7 +12,7 @@ export const ContentCreationSectionStyle = styled.div`
 @media only screen and (min-width: 700px) {
 width:100vw ;
 height:290vh ;
-background-color: #802B27;
+background-color: #804B49;
 color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;
@@ -96,7 +96,7 @@ margin-top:4vw ;
 
     width:100vw ;
 height:690vw ;
-background-color: #802B27;
+background-color: #804B49;
 color:#F8F4F4 ;
 display:flex ;
 justify-content:center ;

@@ -13,7 +13,7 @@ color:white ;
   position:fixed ;
   height:15vw ;
   width:30vw ;
-  background-color:#80804D ;
+  background-color:#B57323 ;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -69,7 +69,7 @@ margin-bottom:1.8vw ;
 
 .get-started-btn{
   border-radius:3px ; 
-  background-color:#62218E ; 
+  background-color:#1A1005 ; 
   
   font-size:1.9vw ;
   cursor: pointer;
@@ -95,7 +95,7 @@ color:white ;
   position:fixed ;
   height:35vw ;
   width:90vw ;
-  background-color:#80804D ;
+  background-color:#B57323 ;
   position: fixed;
   left: 50%;
   top: 30%;
@@ -153,7 +153,7 @@ margin-bottom:1.8vw ;
 
 .get-started-btn{
   border-radius:3px ; 
-  background-color:#62218E ; 
+  background-color:#1A1005; 
   width:60% ;
   font-size:6vw ;
   cursor: pointer;
@@ -173,6 +173,7 @@ margin-bottom:1.8vw ;
 
 
 }
+
 
 
 `;

@@ -79,7 +79,7 @@ useEffect( ()=>{
       <div className="content">
 
 <div className="header1 scroll-item">
-Overcoming contentCreations to Nail the Sale
+Complete Content Creation & Content Marketing Masterclass
 </div>
 
 <div className="header2 scroll-item">

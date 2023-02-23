@@ -38,10 +38,16 @@ a{
 
         .leftArrow{
             cursor: pointer;
+            width: 1900%;
+  object-fit: contain;
+  aspect-ratio: 4/3;
         }
         .whatsappLogo{
             cursor: pointer;
             visibility:hidden ;
+            width: 100%;
+  object-fit: contain;
+  aspect-ratio: 4/3;
         }
     }
 }
@@ -118,9 +124,15 @@ footer{
 
         .leftArrow{
             cursor: pointer;
+            width: 1900%;
+  object-fit: contain;
+  aspect-ratio: 4/3;
         }
         .whatsappLogo{
             cursor: pointer;
+            width: 100%;
+  object-fit: contain;
+  aspect-ratio: 4/3;
         }
     }
 }
