@@ -66,14 +66,14 @@ setHeaderColor()
 
       
       <div className="header-div">
-         <div className="header1 header">5 Days</div>  <div className="header2 header">Per Day</div>
+         <div className="header1 header">3 Days</div>  <div className="header2 header">Per Day</div>
 
          <div className="close-button">cancel</div>
       </div>    
   {
     Days? <div className='section2'>
-      <span className='description'>make payment of N69,950 for 5 days</span>
-      <a className='get-started-btn' href="https://flutterwave.com/pay/gy92x8hguamw">
+      <span className='description'>make payment of N69,950 for 3 days</span>
+      <a className='get-started-btn' href="https://flutterwave.com/pay/vphffw3vgdte">
 
 <span>BUY</span>
 </a>
@@ -81,8 +81,8 @@ setHeaderColor()
   }
    {
     !Days? <div className='section2'>
-      <span className='description'>make payment of N14,950 for a day</span>
-      <a className='get-started-btn' href="https://flutterwave.com/pay/dulnydvrewhr">
+      <span className='description'>make payment of N24,950 for a day</span>
+      <a className='get-started-btn' href="https://flutterwave.com/pay/xezxzi617hdq">
 <span>BUY</span>
 </a>
     </div>  : null

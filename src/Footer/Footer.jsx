@@ -196,7 +196,7 @@ owned by TreNova Group</span>
 
          <div className="whatsapp-container">
           <div className="con">
-             <img className='leftArrow' src={leftArrow} alt="" srcset="" />   <a href="https://api.whatsapp.com/send?phone=08179361381"><img  className='whatsappLogo' src={whatsappLogo} alt="" srcset="" /></a>
+             <img className='leftArrow' src={leftArrow} alt="" srcset="" />   <a  href="https://chat.whatsapp.com/G40iS1oAO6YDXfyR6ggswQ"><img  className='whatsappLogo' src={whatsappLogo} alt="" srcset="" /></a>
           </div>
         
          </div>
